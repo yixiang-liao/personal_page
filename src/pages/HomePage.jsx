@@ -1,9 +1,10 @@
 import React from 'react'
+import Home from '../layouts/Home'
 
 const HomePage = () => {
   return (
     <div>
-      <h1>Welcome to My Personal Page</h1>
+        <Home />
     </div>
   )
 }
