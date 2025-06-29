@@ -1,6 +1,6 @@
 import { StrictMode } from 'react';
 import ReactDOM from 'react-dom/client';
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter , HashRouter } from 'react-router-dom';
 import App from './App';
 import dayjs from "dayjs";
 import utc from "dayjs/plugin/utc";
@@ -13,8 +13,8 @@ dayjs.extend(timezone);
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <StrictMode>
-    <BrowserRouter>
+    <HashRouter>
       <App />
-    </BrowserRouter>
+    </HashRouter>
   </StrictMode>
 );
