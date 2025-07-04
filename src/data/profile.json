@@ -1,0 +1,59 @@
+{
+  "nameZh": "廖翊翔",
+  "nameEn": "I-Hsiang, Liao",
+  "nickname": "Eason",
+  "cell": "0903-355-894",
+  "email": "ah6020308@gmail.com",
+  "university": "National Kaohsiung University of Science and Technology",
+  "department": "Department of Information Management",
+  "education": [
+    {
+      "university" : "國立高雄科技大學",
+      "department": "資訊管理系",
+      "degree": "學士",
+      "startYear": 2022,
+      "endYear": 2026
+    },
+    {
+      "highSchool": "復華高級中學",
+      "department": "資料處理科",
+      "degree": "高中",
+      "startYear": 2019,
+      "endYear": 2022
+    }
+  ],
+  "experience": [
+    {
+      "company": "國立高雄科技大學",
+      "position": "資訊管理系助理",
+      "startYear": 2023,
+      "endYear": 2024,
+      "description": "協助教授進行教學與研究工作，負責課程資料整理與學生輔導。"
+    },
+    {
+      "company": "復華高級中學",
+      "position": "資料處理科實習生",
+      "startYear": 2021,
+      "endYear": 2022,
+      "description": "參與校內資料處理專案，負責數據分析與報告撰寫。"
+    }
+  ],
+  "achievement":[
+    {
+      "title": "全國資訊競賽",
+      "description": "參加全國資訊競賽，獲得優異成績。",
+      "year": 2023
+    },
+    {
+      "title": "校內程式設計比賽",
+      "description": "在校內程式設計比賽中獲得第一名。",
+      "year": 2022
+    }
+  ],
+  "introduction": "我是一名資訊管理系的學生，對於前端和後端開發有濃厚的興趣。我的專業技能包括Python、JavaScript、以及大數據分析。我熱衷於探索RAG（Retrieval-Augmented Generation）技術，並希望能在未來的職業生涯中應用這些技能。我是一名資訊管理系的學生，對於前端和後端開發有濃厚的興趣。我的專業技能包括Python、JavaScript、以及大數據分析。我熱衷於探索RAG（Retrieval-Augmented Generation）技術，並希望能在未來的職業生涯中應用這些技能。我是一名資訊管理系的學生，對於前端和後端開發有濃厚的興趣。我的專業技能包括Python、JavaScript、以及大數據分析。我熱衷於探索RAG（Retrieval-Augmented Generation）技術，並希望能在未來的職業生涯中應用這些技能。我是一名資訊管理系的學生，對於前端和後端開發有濃厚的興趣。我的專業技能包括Python、JavaScript、以及大數據分析。我熱衷於探索RAG（Retrieval-Augmented Generation）技術，並希望能在未來的職業生涯中應用這些技能。我是一名資訊管理系的學生，對於前端和後端開發有濃厚的興趣。我的專業技能包括Python、JavaScript、以及大數據分析。我熱衷於探索RAG（Retrieval-Augmented Generation）技術，並希望能在未來的職業生涯中應用這些技能。我是一名資訊管理系的學生，對於前端和後端開發有濃厚的興趣。我的專業技能包括Python、JavaScript、以及大數據分析。我熱衷於探索RAG（Retrieval-Augmented Generation）技術，並希望能在未來的職業生涯中應用這些技能。",
+  "linkedin": "https://www.linkedin.com/in/%E7%BF%8A%E7%BF%94-%E5%BB%96-68a7b5120/",
+  "github": "https://github.com/yixiang-liao",
+  "instagram": "https://www.instagram.com/yixiang_yl/",
+  "leetcode": "https://leetcode.com/u/yixiang_yl/",
+  "skills": ["Frontend & Backend Development", "Python", "JavaScript", "Big Data Analytics", "RAG (Retrieval-Augmented Generation)"]
+}

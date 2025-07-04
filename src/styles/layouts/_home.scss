@@ -1,4 +1,37 @@
-.home{
-    height: 90vh;
-    // background-color: black;
+.home {
+  height: 90vh;
+  // background-color: black;
+  background-image: url("https://i.pinimg.com/736x/7f/a1/b3/7fa1b30ec174933fe51feb043e67d0c9.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* 關鍵 */
+  filter: grayscale(100%);
+  transition: filter 0.5s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  .profile {
+    margin-left: 10rem;
+    h1 {
+      letter-spacing: 5px;
+    }
+    p {
+      font-size: 1.5rem;
+    }
+  }
+}
+.home:hover {
+  filter: grayscale(0%);
+}
+
+// 手機版樣式 - 移到外面
+@media (max-width: 1299px) {
+  .home {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+    .profile {
+        margin: 5rem 20px;
+    }
+  }
 }
