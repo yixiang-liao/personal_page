@@ -34,9 +34,9 @@ const Navbar = () => {
         <li>
           <button onClick={() => scrollToId("projects")}>Projects</button>
         </li>
-        <li>
+        {/* <li>
           <button onClick={() => scrollToId("contact")}>Contact</button>
-        </li>
+        </li> */}
       </ul>
     </nav>
   );

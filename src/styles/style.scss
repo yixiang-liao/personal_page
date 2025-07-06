@@ -2,6 +2,8 @@
     font-family: 'Times New Roman', Times, serif;
 };
 
-@import './components/Navbar.scss';
+@import './components/Navbar';
+@import './components/BackToTopButton';
 @import './layouts/home';
 @import './layouts/about';
+@import './layouts/_project';

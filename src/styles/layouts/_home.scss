@@ -1,5 +1,5 @@
 .home {
-  height: 90vh;
+  height: 100vh;
   // background-color: black;
   background-image: url("https://i.pinimg.com/736x/7f/a1/b3/7fa1b30ec174933fe51feb043e67d0c9.jpg");
   background-size: cover;
@@ -27,11 +27,15 @@
 // 手機版樣式 - 移到外面
 @media (max-width: 1299px) {
   .home {
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 100vh; /* 讓整個區塊至少撐滿一個畫面高度 */
     .profile {
-        margin: 5rem 20px;
+      margin: 7rem 20px;
+      margin-top: auto; /* 將 .profile 推到底部 */
+      margin-bottom: 2rem;
+      padding: 0 20px;
     }
   }
 }

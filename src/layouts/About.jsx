@@ -82,6 +82,16 @@ const About = () => {
               ))}
             </ul>
           </div>
+          <h2>Certificates</h2>
+          <div className="certificates">
+            <ul>
+              {profile.Certificates.map((cert, index) => (
+                <li key={index}>
+                  <strong>{cert.title}</strong> - {cert.issuer} <br /> {cert.year}
+                </li>
+              ))}
+            </ul>
+          </div>
           <h2>Education</h2>
           <div className="education">
             <ul>
