@@ -1,4 +1,18 @@
 @charset "UTF-8";
+@font-face {
+  font-family: "Noto Serif TC";
+  src: url("/Noto_Serif_TC/static/NotoSerifTC-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Noto Serif TC";
+  src: url("/Noto_Serif_TC/static/NotoSerifTC-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
 * {
   font-family: "Noto Sans TC", serif !important;
   font-optical-sizing: auto;
