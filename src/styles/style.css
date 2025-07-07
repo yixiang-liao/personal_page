@@ -441,7 +441,7 @@
 }
 .project {
   width: 100%;
-  min-height: 100vh;
+  min-height: 50vh;
   padding: 2rem;
   scroll-margin-top: 10vh;
   display: flex;
