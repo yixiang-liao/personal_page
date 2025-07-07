@@ -15,8 +15,6 @@ If you are developing a production application, we recommend using TypeScript wi
 git init
 git add .
 git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/yixiang-liao/personal_page.git
 git push -u origin main
 npm run deploy
 ```

@@ -1,6 +1,7 @@
 @charset "UTF-8";
 * {
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Noto Sans TC", serif;
+  font-optical-sizing: auto;
 }
 
 .navbar {
@@ -304,14 +305,15 @@
 }
 
 .project-modal {
-  font-family: "Times New Roman", Times, serif !important;
+  font-family: "Noto Sans TC", serif !important;
+  font-optical-sizing: auto;
 }
 
 .home {
   height: 100vh;
   background-image: url("https://i.pinimg.com/736x/7f/a1/b3/7fa1b30ec174933fe51feb043e67d0c9.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: center center;
   background-attachment: fixed; /* 關鍵 */
   filter: grayscale(100%);
   transition: filter 0.5s ease;
@@ -452,7 +454,8 @@
   text-align: center;
   margin-bottom: 1.5rem;
   font-weight: bold;
-  font-family: "Times New Roman", serif;
+  font-family: "Noto Sans TC", serif;
+  font-optical-sizing: auto;
 }
 .project .project-container-wrapper {
   width: 100%;
