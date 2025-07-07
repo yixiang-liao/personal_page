@@ -3,6 +3,7 @@ import "./styles/style.css";
 import AppRoutes from "./routes/index";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <Navbar />
       {/* Main content area */}
       <AppRoutes />
+      <Footer />
     </div>
   );
 }

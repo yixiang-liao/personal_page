@@ -1,0 +1,198 @@
+[
+  {
+    "id": "1",
+    "project_name": "示範專案 1",
+    "images": {
+      "cover": "https://ssp.moe.gov.tw/uploads/output/S116T1274/proposal_data1132_0_page-01.png?t=1751879597",
+      "others": [
+        "https://yourdomain.com/images/demo1-1.png",
+        "https://yourdomain.com/images/demo1-2.png"
+      ]
+    },
+    "tags": ["AI", "NLP", "RAG"],
+    "type": "API + 前端介面",
+    "technologies": ["FastAPI", "LangChain", "React", "SQLite", "VectorDB"],
+    "description": [
+      ["專案背景", "這是示範專案 1 的專案背景描述內容。"],
+      ["技術亮點", "示範專案 1 的技術亮點在於整合多種技術並提供良好使用者體驗。"],
+      ["專案畫面", "", [
+        "https://yourdomain.com/images/demo1-1.png",
+        "https://yourdomain.com/images/demo1-2.png"
+      ]],
+      ["挑戰與收穫", "從示範專案 1 的開發中獲得許多寶貴經驗與挑戰處理能力。"]
+    ],
+    "links": [
+      ["GitHub Repo", "https://github.com/yourname/demo1"],
+      ["Demo 展示", "https://demo1.vercel.app"],
+      ["Notion 文件", "https://www.notion.so/demo1-doc"]
+    ]
+  },
+  {
+    "id": "2",
+    "project_name": "示範專案 2",
+    "images": {
+      "cover": "https://ssp.moe.gov.tw/uploads/output/S116T1274/proposal_data1132_0_page-01.png?t=1751879597",
+      "others": [
+        "https://yourdomain.com/images/demo2-1.png",
+        "https://yourdomain.com/images/demo2-2.png"
+      ]
+    },
+    "tags": ["AI", "NLP", "RAG"],
+    "type": "API + 前端介面",
+    "technologies": ["FastAPI", "LangChain", "React", "SQLite", "VectorDB"],
+    "description": [
+      ["專案背景", "這是示範專案 2 的專案背景描述內容。"],
+      ["技術亮點", "示範專案 2 的技術亮點在於整合多種技術並提供良好使用者體驗。"],
+      ["專案畫面", "", [
+        "https://yourdomain.com/images/demo2-1.png",
+        "https://yourdomain.com/images/demo2-2.png"
+      ]],
+      ["挑戰與收穫", "從示範專案 2 的開發中獲得許多寶貴經驗與挑戰處理能力。"]
+    ],
+    "links": [
+      ["GitHub Repo", "https://github.com/yourname/demo2"],
+      ["Demo 展示", "https://demo2.vercel.app"],
+      ["Notion 文件", "https://www.notion.so/demo2-doc"]
+    ]
+  },
+  {
+    "id": "3",
+    "project_name": "示範專案 3",
+    "images": {
+      "cover": "https://ssp.moe.gov.tw/uploads/output/S116T1274/proposal_data1132_0_page-01.png?t=1751879597",
+      "others": [
+        "https://yourdomain.com/images/demo3-1.png",
+        "https://yourdomain.com/images/demo3-2.png"
+      ]
+    },
+    "tags": ["AI", "NLP", "RAG"],
+    "type": "API + 前端介面",
+    "technologies": ["FastAPI", "LangChain", "React", "SQLite", "VectorDB"],
+    "description": [
+      ["專案背景", "這是示範專案 3 的專案背景描述內容。"],
+      ["技術亮點", "示範專案 3 的技術亮點在於整合多種技術並提供良好使用者體驗。"],
+      ["專案畫面", "", [
+        "https://yourdomain.com/images/demo3-1.png",
+        "https://yourdomain.com/images/demo3-2.png"
+      ]],
+      ["挑戰與收穫", "從示範專案 3 的開發中獲得許多寶貴經驗與挑戰處理能力。"]
+    ],
+    "links": [
+      ["GitHub Repo", "https://github.com/yourname/demo3"],
+      ["Demo 展示", "https://demo3.vercel.app"],
+      ["Notion 文件", "https://www.notion.so/demo3-doc"]
+    ]
+  },
+  {
+    "id": "4",
+    "project_name": "示範專案 4",
+    "images": {
+      "cover": "https://ssp.moe.gov.tw/uploads/output/S116T1274/proposal_data1132_0_page-01.png?t=1751879597",
+      "others": [
+        "https://yourdomain.com/images/demo4-1.png",
+        "https://yourdomain.com/images/demo4-2.png"
+      ]
+    },
+    "tags": ["AI", "NLP", "RAG"],
+    "type": "API + 前端介面",
+    "technologies": ["FastAPI", "LangChain", "React", "SQLite", "VectorDB"],
+    "description": [
+      ["專案背景", "這是示範專案 4 的專案背景描述內容。"],
+      ["技術亮點", "示範專案 4 的技術亮點在於整合多種技術並提供良好使用者體驗。"],
+      ["專案畫面", "", [
+        "https://yourdomain.com/images/demo4-1.png",
+        "https://yourdomain.com/images/demo4-2.png"
+      ]],
+      ["挑戰與收穫", "從示範專案 4 的開發中獲得許多寶貴經驗與挑戰處理能力。"]
+    ],
+    "links": [
+      ["GitHub Repo", "https://github.com/yourname/demo4"],
+      ["Demo 展示", "https://demo4.vercel.app"],
+      ["Notion 文件", "https://www.notion.so/demo4-doc"]
+    ]
+  },
+  {
+    "id": "5",
+    "project_name": "示範專案 5",
+    "images": {
+      "cover": "https://ssp.moe.gov.tw/uploads/output/S116T1274/proposal_data1132_0_page-01.png?t=1751879597",
+      "others": [
+        "https://yourdomain.com/images/demo5-1.png",
+        "https://yourdomain.com/images/demo5-2.png"
+      ]
+    },
+    "tags": ["AI", "NLP", "RAG"],
+    "type": "API + 前端介面",
+    "technologies": ["FastAPI", "LangChain", "React", "SQLite", "VectorDB"],
+    "description": [
+      ["專案背景", "這是示範專案 5 的專案背景描述內容。"],
+      ["技術亮點", "示範專案 5 的技術亮點在於整合多種技術並提供良好使用者體驗。"],
+      ["專案畫面", "", [
+        "https://yourdomain.com/images/demo5-1.png",
+        "https://yourdomain.com/images/demo5-2.png"
+      ]],
+      ["挑戰與收穫", "從示範專案 5 的開發中獲得許多寶貴經驗與挑戰處理能力。"]
+    ],
+    "links": [
+      ["GitHub Repo", "https://github.com/yourname/demo5"],
+      ["Demo 展示", "https://demo5.vercel.app"],
+      ["Notion 文件", "https://www.notion.so/demo5-doc"]
+    ]
+  },
+  {
+    "id": "6",
+    "project_name": "示範專案 6",
+    "images": {
+      "cover": "https://ssp.moe.gov.tw/uploads/output/S116T1274/proposal_data1132_0_page-01.png?t=1751879597",
+      "others": [
+        "https://yourdomain.com/images/demo6-1.png",
+        "https://yourdomain.com/images/demo6-2.png"
+      ]
+    },
+    "tags": ["AI", "NLP", "RAG"],
+    "type": "API + 前端介面",
+    "technologies": ["FastAPI", "LangChain", "React", "SQLite", "VectorDB"],
+    "description": [
+      ["專案背景", "這是示範專案 6 的專案背景描述內容。"],
+      ["技術亮點", "示範專案 6 的技術亮點在於整合多種技術並提供良好使用者體驗。"],
+      ["專案畫面", "", [
+        "https://yourdomain.com/images/demo6-1.png",
+        "https://yourdomain.com/images/demo6-2.png"
+      ]],
+      ["挑戰與收穫", "從示範專案 6 的開發中獲得許多寶貴經驗與挑戰處理能力。"]
+    ],
+    "links": [
+      ["GitHub Repo", "https://github.com/yourname/demo6"],
+      ["Demo 展示", "https://demo6.vercel.app"],
+      ["Notion 文件", "https://www.notion.so/demo6-doc"]
+    ]
+  },
+  {
+    "id": "7",
+    "project_name": "示範專案 7",
+    "images": {
+      "cover": "https://ssp.moe.gov.tw/uploads/output/S116T1274/proposal_data1132_0_page-01.png?t=1751879597",
+      "others": [
+        "https://yourdomain.com/images/demo7-1.png",
+        "https://yourdomain.com/images/demo7-2.png"
+      ]
+    },
+    "tags": ["AI", "NLP", "RAG"],
+    "type": "API + 前端介面",
+    "technologies": ["FastAPI", "LangChain", "React", "SQLite", "VectorDB"],
+    "description": [
+      ["專案背景", "這是示範專案 7 的專案背景描述內容。"],
+      ["技術亮點", "示範專案 7 的技術亮點在於整合多種技術並提供良好使用者體驗。"],
+      ["專案畫面", "", [
+        "https://yourdomain.com/images/demo7-1.png",
+        "https://yourdomain.com/images/demo7-2.png"
+      ]],
+      ["挑戰與收穫", "從示範專案 7 的開發中獲得許多寶貴經驗與挑戰處理能力。"]
+    ],
+    "links": [
+      ["GitHub Repo", "https://github.com/yourname/demo7"],
+      ["Demo 展示", "https://demo7.vercel.app"],
+      ["Notion 文件", "https://www.notion.so/demo7-doc"]
+    ]
+  }
+]
