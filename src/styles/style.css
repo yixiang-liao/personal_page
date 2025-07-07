@@ -334,6 +334,13 @@
   flex-direction: column;
   justify-content: center;
 }
+@media (max-width: 768px) {
+  .home {
+    background-attachment: scroll;
+    background-size: 100% auto;
+    background-position: center center;
+  }
+}
 .home .profile {
   margin-left: 10rem;
 }
