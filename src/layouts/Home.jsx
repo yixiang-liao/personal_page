@@ -3,7 +3,7 @@ import profile from "../data/profile.json";
 
 const Home = () => {
   return (
-    <div className="home">
+    <div className="home" id="home">
       <div className="profile">
         <h1>Hi, I'm {profile.nameZh} {profile.nameEn}</h1>
         <p>

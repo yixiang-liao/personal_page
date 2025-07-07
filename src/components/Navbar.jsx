@@ -12,7 +12,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="navbar"  id="home">
+    <nav className="navbar" >
       <div className="logo">
         <Link to="/">
           <img src="./logo_工作區域 1.png" />
