@@ -14,8 +14,9 @@
   // 小螢幕禁用 background-attachment: fixed
   @media (max-width: 768px) {
     background-attachment: scroll;
+    background-size: cover;
     // background-size: 100% auto;
-    // background-position: center center;
+    background-position: center center;
   }
   .profile {
     margin-left: 10rem;

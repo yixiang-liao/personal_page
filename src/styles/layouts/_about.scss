@@ -10,8 +10,8 @@
   .about-content {
     display: flex;
     align-items: flex-start;
-    justify-content: center;
-    gap: 2rem;
+    justify-content: space-around;
+    // gap: 2rem;
     min-height: 100vh;
     position: relative; // 重要：為 sticky 提供定位上下文
     .about-contentA {
@@ -74,10 +74,14 @@
       gap: 1rem;
       // min-height: 110vh; // 重要：確保內容足夠長以產生滾動效果
       min-height: auto;
+      text-align: justify;
       h2 {
         font-size: 1.8rem;
         font-weight: bold;
         margin-bottom: 0.5rem;
+      }
+      .introduction{
+        width: 80%;
       }
     }
   }
@@ -95,6 +99,9 @@
       .about-contentB {
         width: 100%;
         position: static; // 取消 sticky
+      .introduction{
+        width: 100%;
+      }
       }
     }
   }

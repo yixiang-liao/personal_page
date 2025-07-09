@@ -1,21 +1,36 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const location = useLocation();
+  const navigate = useNavigate();
+
   const scrollToId = (id) => {
     const el = document.getElementById(id);
     if (el) {
       el.scrollIntoView({ behavior: "smooth" });
-      setIsOpen(false); // 手機選單點擊後收起
+      setIsOpen(false);
+    }
+  };
+
+  const handleNavClick = (id) => {
+    if (location.pathname !== "/") {
+      // 如果不在首頁，先導回首頁，再等一下 scroll
+      navigate("/");
+      setTimeout(() => {
+        scrollToId(id);
+      }, 100); // 等待頁面 render 完
+    } else {
+      scrollToId(id);
     }
   };
 
   return (
-    <nav className="navbar" >
+    <nav className="navbar">
       <div className="logo">
         <Link to="/">
-          <img src="./logo_工作區域 1.png" />
+          <img src="./logo_工作區域 1.png" alt="logo" />
           <span className="logo-text">｜ I-Hsiang, Liao</span>
         </Link>
       </div>
@@ -26,17 +41,19 @@ const Navbar = () => {
       </div>
       <ul className={`nav-links ${isOpen ? "active" : ""}`}>
         <li>
-          <button onClick={() => scrollToId("home")}>Home</button>
+          <button onClick={() => handleNavClick("home")}>Home</button>
         </li>
         <li>
-          <button onClick={() => scrollToId("about")}>About</button>
+          <button onClick={() => handleNavClick("about")}>About</button>
         </li>
         <li>
-          <button onClick={() => scrollToId("projects")}>Projects</button>
+          <button onClick={() => handleNavClick("projects")}>Projects</button>
         </li>
-        {/* <li>
-          <button onClick={() => scrollToId("contact")}>Contact</button>
-        </li> */}
+        <li>
+          <Link to="/acknowledgements" onClick={() => setIsOpen(false)}>
+            Acknowledgements
+          </Link>
+        </li>
       </ul>
     </nav>
   );
