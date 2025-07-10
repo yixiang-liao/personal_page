@@ -16,7 +16,7 @@ export default defineConfig({
         start_url: '/personal_page/',
         display: 'standalone',
         background_color: '#ffffff',
-        theme_color: '#1976d2',
+        theme_color: '#ffffff',
         icons: [
           {
             src: 'icon-192.png',
