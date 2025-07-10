@@ -12,7 +12,7 @@
     margin-bottom: 2rem;
     font-weight: bold;
     font-family: "Noto Sans TC", serif;
-  font-optical-sizing: auto;
+    font-optical-sizing: auto;
   }
   h1::after {
     content: "";
@@ -38,6 +38,17 @@
       flex-wrap: wrap;
       gap: 3rem;
       justify-content: flex-start;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .project {
+    padding: 1rem;
+
+    .project-container-wrapper {
+      .project-container {
+        justify-content: center; // 在小螢幕上置中
+      }
     }
   }
 }

@@ -552,6 +552,14 @@ p {
   justify-content: flex-start;
 }
 
+@media (max-width: 768px) {
+  .project {
+    padding: 1rem;
+  }
+  .project .project-container-wrapper .project-container {
+    justify-content: center;
+  }
+}
 .acknowledgements {
   min-height: 100vh;
   padding-top: 80px; /* 和 navbar 高度對應 */
