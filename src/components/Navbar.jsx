@@ -54,6 +54,11 @@ const Navbar = () => {
             Acknowledgements
           </Link>
         </li>
+        <li>
+          <Link to="/font" onClick={() => setIsOpen(false)}>
+            font
+          </Link>
+        </li>
       </ul>
     </nav>
   );

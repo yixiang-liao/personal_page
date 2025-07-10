@@ -67,7 +67,7 @@ const ProjectModal = ({ project, onClose, open }) => {
           variant="body1"
           sx={{ mb: 2, fontFamily: "'Times New Roman', Times, serif" }}
         >
-          <strong>使用技術：</strong> {project.technologies.join(", ")}
+          <strong >使用技術：</strong> {project.technologies.join(", ")}
         </Typography>
 
         {/* 描述段落 */}
@@ -96,9 +96,9 @@ const ProjectModal = ({ project, onClose, open }) => {
             ) : (
               <Typography
                 variant="body2"
-                sx={{
-                  fontFamily: "'Times New Roman', Times, serif",
-                }}
+                // sx={{
+                //   fontFamily: "'Times New Roman', Times, serif",
+                // }}
               >
                 {textOrEmpty}
               </Typography>

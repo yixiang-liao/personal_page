@@ -1,29 +1,35 @@
-@font-face {
-  font-family: 'Noto Serif TC';
-  src: url('/Noto_Serif_TC/static/NotoSerifTC-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Noto Serif TC';
-  src: url('/Noto_Serif_TC/static/NotoSerifTC-Bold.ttf') format('truetype');
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
-*{
-  font-family: "Noto Sans TC", serif !important;
+* {
+  font-family: "Noto Serif TC", serif !important;
   font-optical-sizing: auto;
-};
+}
 
-@import './components/Navbar';
-@import './components/BackToTopButton';
-@import './components/Footer';
-@import './components/ProjectBox';
-@import './components/ProjectModal';
-@import './layouts/home';
-@import './layouts/about';
-@import './layouts/_project';
-@import './pages/_acknowledgements';
+h1 {
+  font-weight: bold;
+  font-size: 2.3rem;
+}
+h2 {
+  font-weight: bold;
+  font-size: 1.8rem;
+  color: #333030;
+}
+h3 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+p {
+  font-family: "Noto Sans TC", sans-serif !important;
+  font-size: 1rem;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&family=Noto+Serif+TC:wght@200..900&display=swap");
+
+@import "./components/Navbar";
+@import "./components/BackToTopButton";
+@import "./components/Footer";
+@import "./components/ProjectBox";
+@import "./components/ProjectModal";
+@import "./layouts/home";
+@import "./layouts/about";
+@import "./layouts/_project";
+@import "./pages/_acknowledgements";
+@import "./pages/_font";

@@ -1,0 +1,31 @@
+.font-page {
+  min-height: 60vh;
+  padding-top: 100px; /* 和 navbar 高度對應 */
+  padding-left: 3rem;
+    padding-right: 3rem;
+    h1{
+        text-align: center;
+        margin-bottom: 1.5rem;
+        font-weight: bold;
+        letter-spacing: 2px;
+        font-size: 2.3rem;
+    }
+    h2{
+        text-align: center;
+        margin-bottom: 1.5rem;
+        font-weight: bold;
+        letter-spacing: 2px;
+        font-size: 2rem;
+    }
+    h3{
+        text-align: center;
+        margin-bottom: 1.5rem;
+        font-weight: bold;
+        letter-spacing: 2px;
+        font-size: 1.5rem;
+    }
+    p{
+        font-family: "Noto Sans TC", sans-serif !important;
+        font-size: 1.1rem;
+    }
+}

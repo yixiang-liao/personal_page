@@ -5,7 +5,7 @@ const ProjectBox = ({ image, title, type, tags, onClick }) => {
     <div className="project-box" onClick={onClick} style={{ cursor: 'pointer' }}>
       <img src={image} alt={title} />
       <div className="project-text">
-        <h2>{title}</h2>
+        <h3>{title}</h3>
         <div className="type">{type}</div>
         <div className="tags">
           {tags.map((tag, i) => (

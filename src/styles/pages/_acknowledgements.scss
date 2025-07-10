@@ -1,5 +1,18 @@
-.acknowledgements{
-    min-height: 100vh;
-    
+.acknowledgements {
+  min-height: 100vh;
   padding-top: 80px; /* 和 navbar 高度對應 */
+  h1 {
+    text-align: center;
+    margin-top: 2rem; /* 頂部距離 */
+    margin-bottom: 2rem;
+    font-weight: bold;
+  }
+  h1::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 5px;
+    background-color: #f2b705;
+    margin: 15px auto 0 auto; /* 👈 上外距 + 置中 */
+  }
 }

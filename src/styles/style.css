@@ -1,21 +1,29 @@
 @charset "UTF-8";
-@font-face {
-  font-family: "Noto Serif TC";
-  src: url("/Noto_Serif_TC/static/NotoSerifTC-Regular.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Noto Serif TC";
-  src: url("/Noto_Serif_TC/static/NotoSerifTC-Bold.ttf") format("truetype");
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&family=Noto+Serif+TC:wght@200..900&display=swap");
 * {
-  font-family: "Noto Sans TC", serif !important;
+  font-family: "Noto Serif TC", serif !important;
   font-optical-sizing: auto;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 2.3rem;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 1.8rem;
+  color: #333030;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+p {
+  font-family: "Noto Sans TC", sans-serif !important;
+  font-size: 1rem;
 }
 
 .navbar {
@@ -25,9 +33,9 @@
   padding: 15px 10rem !important;
   background-color: white;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  height: 10vh !important;
-  min-height: 60px !important;
-  max-height: 120px !important;
+  height: 80px !important;
+  min-height: unset !important;
+  max-height: unset !important;
   width: 100%;
   position: fixed !important; /* 固定位置 */
   top: 0 !important; /* 從上方 0 開始 */
@@ -38,6 +46,7 @@
   font-size: 1.5rem;
   display: flex;
   align-items: center;
+  font-weight: bold;
 }
 .navbar .logo a {
   text-decoration: none;
@@ -74,7 +83,7 @@
   display: flex;
   gap: 1.5rem;
   margin: 0 !important;
-  font-size: 1.3rem;
+  font-size: 1.2rem !important;
 }
 .navbar .nav-links button {
   background-color: white;
@@ -82,6 +91,7 @@
   text-decoration: none;
   color: #333;
   font-weight: 500;
+  font-size: 1.2rem !important;
 }
 .navbar .nav-links button:hover {
   color: #007bff;
@@ -90,6 +100,7 @@
   text-decoration: none;
   color: #333;
   font-weight: 500;
+  font-size: 1.2rem !important;
 }
 .navbar .nav-links li a:hover {
   color: #007bff;
@@ -112,7 +123,7 @@
   }
   .navbar .nav-links {
     position: absolute;
-    top: 10vh;
+    top: 80px;
     left: 0;
     right: 0;
     background-color: white;
@@ -178,7 +189,7 @@
 .footer .footer-content .footer-logo hr {
   width: 100%;
   height: 2px;
-  background-color: #F2B705;
+  background-color: #f2b705;
   opacity: 1; /* 確保不透明 */
   border: none;
   margin: 1rem 0;
@@ -192,7 +203,7 @@
 .footer .footer-content .line {
   width: 2px;
   height: 7rem;
-  background-color: #F2B705;
+  background-color: #f2b705;
   margin: 0 2rem;
 }
 .footer .footer-content .footer-contact {
@@ -201,7 +212,7 @@
 .footer .footer-content .footer-contact hr {
   width: 100%;
   height: 2px;
-  background-color: #F2B705;
+  background-color: #f2b705;
   border: none;
   margin: 1rem 0;
 }
@@ -220,7 +231,7 @@
 .footer .footer-content .footer-links hr {
   width: 100%;
   height: 2px;
-  background-color: #F2B705;
+  background-color: #f2b705;
   border: none;
   margin: 1rem 0;
 }
@@ -245,7 +256,7 @@
   transition: color 0.3s ease-in-out;
 }
 .footer .footer-content .footer-links .social-links a:hover {
-  color: #b17214;
+  color: #f2b705;
 }
 .footer .copyright {
   color: rgb(177, 176, 176);
@@ -257,6 +268,8 @@
 }
 .footer .copyright p {
   margin: 0;
+  font-size: 1rem;
+  font-family: "Noto Serif TC", serif !important;
 }
 
 .wave-top {
@@ -294,7 +307,7 @@
   margin-top: 1rem;
   padding: 0.5rem;
 }
-.project-box .project-text h2 {
+.project-box .project-text h3 {
   font-size: 1.5rem;
   margin-bottom: 0.5rem;
   white-space: normal;
@@ -329,18 +342,21 @@
   background-image: url("https://i.pinimg.com/736x/7f/a1/b3/7fa1b30ec174933fe51feb043e67d0c9.jpg");
   background-size: cover;
   background-position: center center;
-  background-attachment: fixed; /* 關鍵 */
   filter: grayscale(100%);
   transition: filter 0.5s ease;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
+@media (min-width: 1181px) {
+  .home {
+    background-attachment: fixed; /* 關鍵 */
+  }
+}
 @media (max-width: 768px) {
   .home {
     background-attachment: scroll;
     background-size: cover;
-    background-position: center center;
   }
 }
 .home .profile {
@@ -351,6 +367,7 @@
 }
 .home .profile p {
   font-size: 1.5rem;
+  font-family: "Noto Serif TC", serif !important;
 }
 
 .home:hover {
@@ -374,12 +391,20 @@
 .about {
   min-height: 100vh;
   padding: 2rem;
-  scroll-margin-top: 10vh; /* 對應你的 navbar 高度 */
+  scroll-margin-top: 80px; /* 對應你的 navbar 高度 */
 }
 .about h1 {
   text-align: center;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
   font-weight: bold;
+}
+.about h1::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 5px;
+  background-color: #f2b705;
+  margin: 8px auto 0 auto; /* 👈 上外距 + 置中 */
 }
 .about .about-content {
   display: flex;
@@ -439,7 +464,7 @@
   color: #3d3d3d;
 }
 .about .about-content .about-contentA .about-info .link a:hover {
-  color: #b17214;
+  color: #f2b705;
 }
 .about .about-content .about-contentB {
   width: 60%;
@@ -450,12 +475,25 @@
   text-align: justify;
 }
 .about .about-content .about-contentB h2 {
-  font-size: 1.8rem;
   font-weight: bold;
   margin-bottom: 0.5rem;
+  color: #333030;
+  gap: 0.5rem; /* 豎線與文字的間距 */
+}
+.about .about-content .about-contentB h2::before {
+  content: "";
+  display: inline-block;
+  width: 5px;
+  height: 1.6rem;
+  background-color: #f2b705;
+  margin-right: 0.5rem; /* 豎線與文字的間距 */
 }
 .about .about-content .about-contentB .introduction {
   width: 80%;
+}
+.about .about-content .about-contentB strong,
+.about .about-content .about-contentB li {
+  font-family: "Noto Sans TC", sans-serif !important;
 }
 
 @media (max-width: 768px) {
@@ -479,17 +517,25 @@
   width: 100%;
   min-height: 50vh;
   padding: 2rem;
-  scroll-margin-top: 10vh;
+  scroll-margin-top: 80px; /* 對應你的 navbar 高度 */
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 .project h1 {
   text-align: center;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
   font-weight: bold;
   font-family: "Noto Sans TC", serif;
   font-optical-sizing: auto;
+}
+.project h1::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 5px;
+  background-color: #f2b705;
+  margin: 10px auto 0 auto; /* 👈 上外距 + 置中 */
 }
 .project .project-container-wrapper {
   width: 100%;
@@ -509,4 +555,50 @@
 .acknowledgements {
   min-height: 100vh;
   padding-top: 80px; /* 和 navbar 高度對應 */
+}
+.acknowledgements h1 {
+  text-align: center;
+  margin-top: 2rem; /* 頂部距離 */
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+.acknowledgements h1::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 5px;
+  background-color: #f2b705;
+  margin: 15px auto 0 auto; /* 👈 上外距 + 置中 */
+}
+
+.font-page {
+  min-height: 60vh;
+  padding-top: 100px; /* 和 navbar 高度對應 */
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+.font-page h1 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 2.3rem;
+}
+.font-page h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 2rem;
+}
+.font-page h3 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 1.5rem;
+}
+.font-page p {
+  font-family: "Noto Sans TC", sans-serif !important;
+  font-size: 1.1rem;
 }/*# sourceMappingURL=style.css.map */

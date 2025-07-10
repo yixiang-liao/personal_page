@@ -1,11 +1,19 @@
 .about {
   min-height: 100vh; // ✅ 高度自適應內容
   padding: 2rem;
-  scroll-margin-top: 10vh; /* 對應你的 navbar 高度 */
+  scroll-margin-top: 80px; /* 對應你的 navbar 高度 */
   h1 {
     text-align: center;
-    margin-bottom: 1.5rem;
+    margin-bottom: 2rem;
     font-weight: bold;
+  }
+  h1::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 5px;
+    background-color: #f2b705;
+    margin: 8px auto 0 auto; /* 👈 上外距 + 置中 */
   }
   .about-content {
     display: flex;
@@ -61,7 +69,7 @@
             font-size: 2rem;
             color: #3d3d3d;
             &:hover {
-              color: #b17214;
+              color: #f2b705;
             }
           }
         }
@@ -76,12 +84,26 @@
       min-height: auto;
       text-align: justify;
       h2 {
-        font-size: 1.8rem;
+        // font-size: 1.8rem;
         font-weight: bold;
         margin-bottom: 0.5rem;
+        color: #333030;
+        gap: 0.5rem; /* 豎線與文字的間距 */
       }
-      .introduction{
+      h2::before {
+        content: "";
+        display: inline-block;
+        width: 5px;
+        height: 1.6rem;
+        background-color: #f2b705;
+        margin-right: 0.5rem; /* 豎線與文字的間距 */
+      }
+      .introduction {
         width: 80%;
+      }
+      strong,
+      li {
+        font-family: "Noto Sans TC", sans-serif !important;
       }
     }
   }
@@ -99,9 +121,9 @@
       .about-contentB {
         width: 100%;
         position: static; // 取消 sticky
-      .introduction{
-        width: 100%;
-      }
+        .introduction {
+          width: 100%;
+        }
       }
     }
   }
