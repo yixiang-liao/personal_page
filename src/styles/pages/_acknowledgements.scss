@@ -15,4 +15,13 @@
     background-color: #f2b705;
     margin: 15px auto 0 auto; /* 👈 上外距 + 置中 */
   }
+  .acknowledgements-wrapper {
+    display: flex;
+    justify-content: center; /* 水平置中 */
+    .acknowledgements-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr); // 每行 3 個等寬欄位
+      gap: 1rem; // 欄位間距
+    }
+  }
 }

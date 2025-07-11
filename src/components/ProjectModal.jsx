@@ -61,15 +61,24 @@ const ProjectModal = ({ project, onClose, open }) => {
             <Chip key={idx} label={tag} variant="outlined" />
           ))}
         </Stack>
-
-        {/* 技術 */}
-        <Typography
-          variant="body1"
-          sx={{ mb: 2, fontFamily: "'Times New Roman', Times, serif" }}
-        >
-          <strong >使用技術：</strong> {project.technologies.join(", ")}
-        </Typography>
-
+        <Box sx={{ mb: 3 }}>
+          {/* 技術 */}
+          <Typography
+            variant="h6"
+            gutterBottom
+            sx={{ fontFamily: "'Times New Roman', Times, serif" }}
+          >
+            使用技術
+          </Typography>
+          <Typography
+            variant="body2"
+            // sx={{
+            //   fontFamily: "'Times New Roman', Times, serif",
+            // }}
+          >
+            {project.technologies.join(", ")}
+          </Typography>
+        </Box>
         {/* 描述段落 */}
         {project.description.map(([title, textOrEmpty, imagesOrNothing], i) => (
           <Box key={i} sx={{ mb: 3 }}>

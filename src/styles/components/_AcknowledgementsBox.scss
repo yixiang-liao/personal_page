@@ -1,0 +1,34 @@
+.acknowledgements-box {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+    &:hover{
+        background-color: rgb(225, 224, 224);
+    }
+  img {
+    width: 300px;
+  }
+  .acknowledgements-text{
+    padding: 10px;
+  }
+  .tags span {
+    font-family: "Noto Sans TC", sans-serif !important;
+    font-size: 1rem;
+  }
+}
+@media (max-width: 1024px) {
+  .acknowledgements-box {
+    width: 160px;
+    img {
+      width: 160px;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .acknowledgements-box {
+    width: 100px;
+    img {
+      width: 100px;
+    }
+  }
+}
