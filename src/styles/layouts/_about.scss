@@ -98,8 +98,9 @@
         background-color: #f2b705;
         margin-right: 0.5rem; /* 豎線與文字的間距 */
       }
-      .introduction {
+      .introduction , .experience {
         width: 80%;
+        text-align: justify;
       }
       strong,
       li {
@@ -121,7 +122,7 @@
       .about-contentB {
         width: 100%;
         position: static; // 取消 sticky
-        .introduction {
+        .introduction,.experience {
           width: 100%;
         }
       }

@@ -8,7 +8,7 @@
   "department": "Department of Information Management",
   "education": [
     {
-      "university" : "國立高雄科技大學",
+      "university": "國立高雄科技大學",
       "department": "資訊管理系",
       "degree": "學士",
       "startYear": 2022,
@@ -24,53 +24,273 @@
   ],
   "experience": [
     {
-      "company": "國立高雄科技大學",
-      "position": "資訊管理系助理",
+      "company": "國立高雄科技大學 創新創業發展處",
+      "position": "常駐型工讀生",
+      "startYear": 2022,
+      "endYear": "Now",
+      "description": "協助辦理與規劃各項活動、工坊設備維護與保養、行政事務處理等工作，並結合資訊科技專長，開發處內相關資訊系統，以及官網。"
+    },
+    {
+      "company": "國立高雄科技大學 創新創業發展處",
+      "position": "網站開發人員",
+      "startYear": 2024,
+      "endYear": "Now",
+      "description": "負責規劃與建置處內官方網站架構，並開發響應式前端介面，提升使用者體驗與資訊呈現效率。"
+    },
+    {
+      "company": "技優成果展暨競賽",
+      "position": "總召",
+      "startYear": 2022,
+      "endYear": "Now",
+      "description": "負責整體活動規劃與執行，協調各方資源，確保活動順利進行。"
+    },
+    {
+      "company": "技職盃黑客松競賽",
+      "position": "系統負責人 & 機工/機動/材料室工作人員",
+      "startYear": 2024,
+      "endYear": "Now",
+      "description": "負責開發競賽廣播系統、材料室自動化程式，並與校外廠商接洽租借系統之建置與維護，規劃並優化設備租借流程。於競賽期間管理機工坊與材料室，確保賽事期間各項器材與資源充足且運作順暢。"
+    },
+    {
+      "company": "農之助科技有限公司",
+      "position": "系統開發人員",
+      "startYear": 2025,
+      "endYear": "Now",
+      "description": "負責伺服器監控與日常維運，確保系統穩定運行。後續將參與銷售網站之全端開發，涵蓋前端介面設計與後端功能實作，協助公司建立線上銷售平台。"
+    },
+    {
+      "company": "行動商務與城市計算實驗室",
+      "position": "專題生",
+      "startYear": 2024,
+      "endYear": 2025,
+      "description": "參與實驗室專題研究、產學合作計劃、競賽等計劃，並開發專案相關資訊系統，與計劃書撰寫。"
+    },
+    {
+      "company": "金屬工業研究發展中心 醫療器材研發組（產學合作）",
+      "position": "系統開發人員",
+      "startYear": 2024,
+      "endYear": 2025,
+      "description": "以 LINE Bot與後端框架開發語言治療遊戲之推播與客服系統，實作訊息發送、自動回覆與互動介面，以及使用者綁定流程，協助使用者了解專案計劃。"
+    },
+    {
+      "company": "XULIAN旭聯創新科技有限公司",
+      "position": "網頁美編見習生",
       "startYear": 2023,
-      "endYear": 2024,
-      "description": "協助教授進行教學與研究工作，負責課程資料整理與學生輔導。"
+      "endYear": 2023,
+      "description": "於實習期間負責使用 Python 開發自動化程式，協助將公司代理產品資訊上架至官網，並參與公司 LOGO 設計，結合技術與視覺設計提升品牌形象與作業效率。"
     },
     {
       "company": "復華高級中學",
-      "position": "資料處理科實習生",
-      "startYear": 2021,
+      "position": "DM設計",
+      "startYear": 2022,
       "endYear": 2022,
-      "description": "參與校內資料處理專案，負責數據分析與報告撰寫。"
+      "description": "協助復華高級中學 資料處理科、電子商務科、幼兒保育科設計招生DM。"
     }
   ],
-  "achievement":[
+  "achievement": [
     {
-      "title": "全國資訊競賽",
-      "description": "參加全國資訊競賽，獲得優異成績。",
-      "year": 2023
+      "title": "2025技優成果競賽",
+      "description": "優選（第三名）",
+      "year": 2025
     },
     {
-      "title": "校內程式設計比賽",
-      "description": "在校內程式設計比賽中獲得第一名。",
-      "year": 2022
-    }
-  ],
-  "Certificates":[
-    {
-      "title": "Python 程式設計證書",
-      "issuer": "國立高雄科技大學",
-      "year": 2023
+      "title": "育秀盃創意獎",
+      "description": "入圍",
+      "year": 2025
     },
     {
-      "title": "JavaScript 前端開發證書",
-      "issuer": "Coursera",
-      "year": 2023
-    },
-    {
-      "title": "大數據分析專業證書",
-      "issuer": "edX",
+      "title": "2024技優成果展暨競賽",
+      "description": "佳作",
       "year": 2024
+    },
+    {
+      "title": "112學年度未來學習行動提案競賽",
+      "description": "第一名",
+      "year": 2024
+    },
+    {
+      "title": "112-1校園創意發想提案競賽",
+      "description": "自命題類 優等",
+      "year": 2023
+    },
+    {
+      "title": "第28屆大專院校資訊應用服務創新競賽",
+      "description": "教育開放資料組 佳作",
+      "year": 2023
+    },
+    {
+      "title": "第28屆大專院校資訊應用服務創新競賽",
+      "description": "教育開放資料組 好點子獎勵",
+      "year": 2023
+    },
+    {
+      "title": "大專院校創新創業實戰模擬學習平台",
+      "description": "113年度 第二梯次 服務文創領域 580,000創新幣",
+      "year": 2024
+    },
+    {
+      "title": "大專院校創新創業實戰模擬學習平台",
+      "description": "112年度 第二梯次 服務文創領域 2,410,000創新幣",
+      "year": 2023
+    },
+    {
+      "title": "大專院校創新創業實戰模擬學習平台",
+      "description": "111年度 第一梯次 服務文創領域 5,313,666創新幣",
+      "year": 2022
+    },
+    {
+      "title": "大專院校創新創業實戰模擬學習平台",
+      "description": "111年度 第一梯次 機電運輸領域 759,180創新幣",
+      "year": 2022
+    },
+    {
+      "title": "110學年度 全國商業技藝競賽",
+      "description": "文書處理 優勝",
+      "year": 2021
+    },
+    {
+      "title": "全國高級中等學校專業群科111年專題及創意製作競賽",
+      "description": "決賽 佳作",
+      "year": 2022
+    },
+    {
+      "title": "全國高級中等學校專業群科111年專題及創意製作競賽",
+      "description": "複賽 優選",
+      "year": 2022
+    },
+    {
+      "title": "第四屆Being Life 明日生活 萬物智聯創作大賽",
+      "description": "高中實作組 銅獎",
+      "year": 2020
+    },
+    {
+      "title": "TQC+ 專業設計人才任整單科應用別獎學金",
+      "description": "",
+      "year": 2022
+    },
+    {
+      "title": "110資訊月 資訊應用技能競賽",
+      "description": "商用專業編輯 全國團體 第四名",
+      "year": 2021
+    },
+    {
+      "title": "110資訊月 資訊應用技能競賽",
+      "description": "商用專業編輯 南區團體 第二名",
+      "year": 2021
+    },
+    {
+      "title": "109資訊月 資訊應用技能競賽",
+      "description": "商用專業編輯 南區團體 第二名",
+      "year": 2020
+    },
+    {
+      "title": "109資訊月 資訊應用技能競賽",
+      "description": "商用專業編輯 南區個人 優勝",
+      "year": 2020
+    },
+    {
+      "title": "2021全國高中職創新創業商業模式競賽",
+      "description": "第一名",
+      "year": 2021
+    },
+    {
+      "title": "青少年菸害防制創意宣導 拒絕菸品創意短片大賽",
+      "description": "亞軍",
+      "year": 2021
+    },
+    {
+      "title": "全國高級中等學校閱讀心得寫作比賽 1100310",
+      "description": "優等",
+      "year": 2021
+    },
+    {
+      "title": "全國高級中等學校閱讀心得寫作比賽 1101010",
+      "description": "優等",
+      "year": 2021
+    },
+    {
+      "title": "2021高雄教育節「My Expertise，My Future」我的簡報力",
+      "description": "佳作",
+      "year": 2021
+    },
+    {
+      "title": "2022樹德科大橫山盃全國高中職學生設計與藝術學生專題競賽",
+      "description": "優勝",
+      "year": 2022
+    },
+    {
+      "title": "2020復華高級中學 書法競賽",
+      "description": "冠軍",
+      "year": 2020
     }
   ],
-  "introduction": "我是一名資訊管理系的學生，對於前端和後端開發有濃厚的興趣。我的專業技能包括Python、JavaScript、以及大數據分析。我熱衷於探索RAG（Retrieval-Augmented Generation）技術，並希望能在未來的職業生涯中應用這些技能。我是一名資訊管理系的學生，對於前端和後端開發有濃厚的興趣。我的專業技能包括Python、JavaScript、以及大數據分析。我熱衷於探索RAG（Retrieval-Augmented Generation）技術，並希望能在未來的職業生涯中應用這些技能。我是一名資訊管理系的學生，對於前端和後端開發有濃厚的興趣。我的專業技能包括Python、JavaScript、以及大數據分析。我熱衷於探索RAG（Retrieval-Augmented Generation）技術，並希望能在未來的職業生涯中應用這些技能。我是一名資訊管理系的學生，對於前端和後端開發有濃厚的興趣。我的專業技能包括Python、JavaScript、以及大數據分析。我熱衷於探索RAG（Retrieval-Augmented Generation）技術，並希望能在未來的職業生涯中應用這些技能。我是一名資訊管理系的學生，對於前端和後端開發有濃厚的興趣。我的專業技能包括Python、JavaScript、以及大數據分析。我熱衷於探索RAG（Retrieval-Augmented Generation）技術，並希望能在未來的職業生涯中應用這些技能。我是一名資訊管理系的學生，對於前端和後端開發有濃厚的興趣。我的專業技能包括Python、JavaScript、以及大數據分析。我熱衷於探索RAG（Retrieval-Augmented Generation）技術，並希望能在未來的職業生涯中應用這些技能。",
+  "Certificates": [
+    {
+      "title": "中華民國技術士證 電腦軟體應用 乙級",
+      "issuer": "勞動部",
+      "year": 2022
+    },
+    {
+      "title": "Google Analytics 個人認證",
+      "issuer": "Google",
+      "year": 2022
+    },
+    {
+      "title": "中華民國技術士證 網頁設計 丙級",
+      "issuer": "勞動部",
+      "year": 2021
+    },
+    {
+      "title": "TQC+ 網頁資料擷取與分析（Python 3）專業級",
+      "issuer": "財團法人電腦技能基金會",
+      "year": 2021
+    },
+    {
+      "title": "TQC+ 電腦繪圖設計 第 2 版（Illustrator CC 第2版）專業級",
+      "issuer": "財團法人電腦技能基金會",
+      "year": 2020
+    },
+    {
+      "title": "TQC 電子試算表（Excel 2016）專業級",
+      "issuer": "財團法人電腦技能基金會",
+      "year": 2020
+    },
+    {
+      "title": "TQC+ 網頁編輯製作 第 2 版（Dreamweaver CC 第2版）專業級",
+      "issuer": "財團法人電腦技能基金會",
+      "year": 2020
+    },
+    {
+      "title": "TQC 文書處理（Word 2016）專業級",
+      "issuer": "財團法人電腦技能基金會",
+      "year": 2020
+    },
+    {
+      "title": "TQC+ 影像處理 第 2 版（Photoshop CC 第2版）專業級",
+      "issuer": "財團法人電腦技能基金會",
+      "year": 2020
+    },
+    {
+      "title": "中華民國技術士證 電腦軟體應用 丙級",
+      "issuer": "勞動部",
+      "year": 2020
+    }
+  ],
+  "introduction": "就讀國立高雄科技大學 資訊管理系 大四，並於就讀期間除了積極學習資訊科技實務技術外，也跨領域修讀創新創業相關課程，並取得「創意與創新學分學程」、「創新與創業學分學程」證書，",
   "linkedin": "https://www.linkedin.com/in/%E7%BF%8A%E7%BF%94-%E5%BB%96-68a7b5120/",
   "github": "https://github.com/yixiang-liao",
   "instagram": "https://www.instagram.com/yixiang_yl/",
   "leetcode": "https://leetcode.com/u/yixiang_yl/",
-  "skills": ["Frontend & Backend Development", "Python", "JavaScript", "Big Data Analytics", "RAG (Retrieval-Augmented Generation)"]
+  "skills": [
+    "Frontend & Backend Development",
+    "Generative Artificial Intelligence",
+    "Python",
+    "JavaScript",
+    "Big Data Analytics",
+    "RAG (Retrieval-Augmented Generation)",
+    "System Planning and Analysis",
+    "Integration of Mindfulness and Technology",
+    "Business Model Development",
+    "Document processing"
+  ]
 }

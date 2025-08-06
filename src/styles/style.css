@@ -562,8 +562,9 @@ p {
   background-color: #f2b705;
   margin-right: 0.5rem; /* 豎線與文字的間距 */
 }
-.about .about-content .about-contentB .introduction {
+.about .about-content .about-contentB .introduction, .about .about-content .about-contentB .experience {
   width: 80%;
+  text-align: justify;
 }
 .about .about-content .about-contentB strong,
 .about .about-content .about-contentB li {
@@ -583,7 +584,7 @@ p {
     width: 100%;
     position: static;
   }
-  .about .about-content .about-contentB .introduction {
+  .about .about-content .about-contentB .introduction, .about .about-content .about-contentB .experience {
     width: 100%;
   }
 }
