@@ -8,6 +8,98 @@ import {
 import { SiLeetcode } from "react-icons/si";
 
 const About = () => {
+  // 工具函式：依年份分組
+  const groupByYear = (items, getYear) => {
+    const grouped = {};
+    items.forEach((item) => {
+      let year = getYear(item);
+      if (year === "Now") year = new Date().getFullYear();
+      if (!grouped[year]) grouped[year] = [];
+      grouped[year].push(item);
+    });
+
+    // 排序年份（大到小）
+    return Object.keys(grouped)
+      .sort((a, b) => b - a)
+      .map((year) => ({ year, items: grouped[year] }));
+  };
+
+  const AchievementSection = ({ data }) => {
+    const grouped = groupByYear(data, (item) => item.year); // 假設有 year 欄位
+    return (
+      <div className="achievement">
+        <h2>Achievement</h2>
+        {grouped.map((group) => (
+          <div key={group.year}>
+            <h3 className="year-h3">{group.year}</h3>
+            <ul>
+              {group.items.map((achieve, idx) => (
+                <li key={idx}>
+                  <strong>{achieve.title}</strong> - {achieve.description}
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))}
+      </div>
+    );
+  };
+
+  const ExperienceSection = ({ data }) => {
+    // 改成以 startYear 為依據
+    const grouped = groupByYear(data, (item) => item.startYear);
+
+    return (
+      <div className="experience">
+        <h2>Experience</h2>
+        {grouped.map((group) => (
+          <div key={group.year}>
+            <h3 className="year-h3">{group.year}</h3>
+            <ul>
+              {group.items.map((exp, idx) => (
+                <li key={idx}>
+                  <strong>{exp.position}</strong> at {exp.company} （
+                  {/* <br /> */}
+                  {exp.startYear} -{" "}
+                  {exp.endYear === "Now" ? (
+                    <strong>{exp.endYear}</strong>
+                  ) : (
+                    exp.endYear
+                  )}
+                  ）
+                  {/* <br /> */}
+                  <div className="experience-description">{exp.description}</div>
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))}
+      </div>
+    );
+  };
+
+  const CertificatesSection = ({ data }) => {
+    const grouped = groupByYear(data, (item) => item.year);
+    return (
+      <div className="certificates">
+        <h2>Certificates</h2>
+        {grouped.map((group) => (
+          <div key={group.year}>
+            <h3 className="year-h3">{group.year}</h3>
+            <ul>
+              {group.items.map((cert, idx) => (
+                <li key={idx}>
+                  <strong>{cert.title}</strong> - {cert.issuer} <br />{" "}
+                  {/* {cert.year} */}
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))}
+      </div>
+    );
+  };
+
   return (
     <div className="about" id="about">
       <h1>About Me</h1>
@@ -46,9 +138,7 @@ const About = () => {
         <div className="about-contentB">
           <h2>Introduction</h2>
           <div className="introduction">
-            <p>
-              {profile.introduction}
-            </p>
+            <p>{profile.introduction}</p>
           </div>
           <h2>Skills</h2>
           <div className="skills">
@@ -58,8 +148,11 @@ const About = () => {
               ))}
             </ul>
           </div>
-          <h2>Achievement</h2>
-          <div className="achievement">
+          <AchievementSection data={profile.achievement} />
+          <ExperienceSection data={profile.experience} />
+          <CertificatesSection data={profile.Certificates} />
+          {/* <h2>Achievement</h2> */}
+          {/* <div className="achievement">
             <ul>
               {profile.achievement.map((achieve, index) => (
                 <li key={index}>
@@ -87,26 +180,34 @@ const About = () => {
             <ul>
               {profile.Certificates.map((cert, index) => (
                 <li key={index}>
-                  <strong>{cert.title}</strong> - {cert.issuer} <br /> {cert.year}
+                  <strong>{cert.title}</strong> - {cert.issuer} <br />{" "}
+                  {cert.year}
                 </li>
               ))}
             </ul>
-          </div>
+          </div> */}
           <h2>Education</h2>
           <div className="education">
-            <ul>
-              {profile.education.map((education, index) => (
-                <li key={index}>
-                  <strong>
-                    {education.degree} / {education.university || education.highSchool}
-                  </strong>
-                  <br />
-                  {education.department}
-                  <br />
+            {/* <ul> */}
+            {profile.education.map((education, index) => (
+              <div>
+                <h3 className="year-h3">
                   {education.startYear} - {education.endYear}
-                </li>
-              ))}
-            </ul>
+                </h3>
+                <ul>
+                  <li key={index}>
+                    <strong>
+                      {education.degree} /{" "}
+                      {education.university || education.highSchool}
+                    </strong>{" "}
+                    {education.department}
+                    {/* <br /> */}
+                    {/* {education.startYear} - {education.endYear} */}
+                  </li>
+                </ul>
+              </div>
+            ))}
+            {/* </ul> */}
           </div>
         </div>
       </div>

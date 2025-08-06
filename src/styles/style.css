@@ -562,6 +562,12 @@ p {
   background-color: #f2b705;
   margin-right: 0.5rem; /* 豎線與文字的間距 */
 }
+.about .about-content .about-contentB .year-h3 {
+  font-weight: bold;
+  color: #464141;
+  margin-top: 1rem;
+  margin-left: 0.5rem;
+}
 .about .about-content .about-contentB .introduction, .about .about-content .about-contentB .experience {
   width: 80%;
   text-align: justify;
@@ -569,6 +575,15 @@ p {
 .about .about-content .about-contentB strong,
 .about .about-content .about-contentB li {
   font-family: "Noto Sans TC", sans-serif !important;
+}
+.about .about-content .about-contentB li {
+  line-height: 2rem;
+}
+.about .about-content .about-contentB .experience-description {
+  font-family: "Noto Sans TC", sans-serif !important;
+  color: #676363;
+  margin-bottom: 1rem;
+  line-height: 1.5rem;
 }
 
 @media (max-width: 768px) {
