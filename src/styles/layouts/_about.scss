@@ -144,3 +144,16 @@
     }
   }
 }
+
+@media (min-width: 2500px) {
+  .about {
+    .about-content {
+      .about-contentB {
+        width: 60%;
+        .introduction,.experience {
+          width: 60%;
+        }
+      }
+    }
+  }
+}

@@ -603,6 +603,14 @@ p {
     width: 100%;
   }
 }
+@media (min-width: 2500px) {
+  .about .about-content .about-contentB {
+    width: 60%;
+  }
+  .about .about-content .about-contentB .introduction, .about .about-content .about-contentB .experience {
+    width: 60%;
+  }
+}
 .project {
   width: 100%;
   min-height: 80vh;

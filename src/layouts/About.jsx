@@ -66,9 +66,10 @@ const About = () => {
                   ) : (
                     exp.endYear
                   )}
-                  ）
-                  {/* <br /> */}
-                  <div className="experience-description">{exp.description}</div>
+                  ）{/* <br /> */}
+                  <div className="experience-description">
+                    {exp.description}
+                  </div>
                 </li>
               ))}
             </ul>
@@ -138,7 +139,9 @@ const About = () => {
         <div className="about-contentB">
           <h2>Introduction</h2>
           <div className="introduction">
-            <p>{profile.introduction}</p>
+            {profile.introduction.map((paragraph, index) => (
+              <p key={index}>{paragraph}</p>
+            ))}
           </div>
           <h2>Skills</h2>
           <div className="skills">
@@ -186,8 +189,8 @@ const About = () => {
               ))}
             </ul>
           </div> */}
-          <h2>Education</h2>
           <div className="education">
+          <h2>Education</h2>
             {/* <ul> */}
             {profile.education.map((education, index) => (
               <div>
