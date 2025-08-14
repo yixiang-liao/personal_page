@@ -34,12 +34,19 @@
       list-style: none;
       padding: 0;
       margin: 0;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 3rem;
-      justify-content: center;
-      // justify-content: flex-start; // 👈 項目左對齊
-      // max-width: 1200px; // 👈 設定最大寬度，讓容器可以被置中
+
+      display: grid;
+      grid-template-columns: repeat(3, 1fr); // 固定三欄
+      gap: 3rem; // 卡片間距
+
+      max-width: 1000px; // 控制整體寬度
+      // width: 100%;
+      // display: flex;
+      // flex-wrap: wrap;
+      // gap: 3rem;
+      // // justify-content: center;
+      // justify-content: space-between; // 👈 項目左對齊
+      // max-width: 1000px; // 👈 設定最大寬度，讓容器可以被置中
     }
   }
 }
@@ -49,6 +56,8 @@
 
     .project-container-wrapper {
       .project-container {
+        display: flex;
+        flex-direction: column; // 在小螢幕上改為單列排列
         justify-content: center; // 在小螢幕上置中
       }
     }

@@ -116,30 +116,32 @@ const ProjectModal = ({ project, onClose, open }) => {
         ))}
 
         {/* 相關連結 */}
-        <Box>
-          <Typography
-            variant="h6"
-            gutterBottom
-            sx={{
-              fontFamily: "'Times New Roman', Times, serif",
-            }}
-          >
-            相關連結
-          </Typography>
-          <Stack spacing={1}>
-            {project.links.map(([label, url], i) => (
-              <a
-                key={i}
-                href={url}
-                target="_blank"
-                rel="noreferrer"
-                style={{ color: "#1976d2", textDecoration: "none" }}
-              >
-                {label}
-              </a>
-            ))}
-          </Stack>
-        </Box>
+        {project.links && project.links.length > 0 && (
+          <Box>
+            <Typography
+              variant="h6"
+              gutterBottom
+              sx={{
+                fontFamily: "'Times New Roman', Times, serif",
+              }}
+            >
+              相關連結
+            </Typography>
+            <Stack spacing={1}>
+              {project.links.map(([label, url], i) => (
+                <a
+                  key={i}
+                  href={url}
+                  target="_blank"
+                  rel="noreferrer"
+                  style={{ color: "#1976d2", textDecoration: "none" }}
+                >
+                  {label}
+                </a>
+              ))}
+            </Stack>
+          </Box>
+        )}
       </DialogContent>
 
       <DialogActions>
