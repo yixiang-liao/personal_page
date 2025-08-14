@@ -169,30 +169,25 @@
   },
   {
     "id": "7",
-    "project_name": "示範專案 7",
+    "project_name": "復華中學 招生DM設計",
     "images": {
-      "cover": "https://ssp.moe.gov.tw/uploads/output/S116T1274/proposal_data1132_0_page-01.png?t=1751879597",
+      "cover": "./project/dm_design/cover/投影片1.PNG",
       "others": [
-        "https://yourdomain.com/images/demo7-1.png",
-        "https://yourdomain.com/images/demo7-2.png"
       ]
     },
-    "tags": ["AI", "NLP", "RAG"],
-    "type": "API + 前端介面",
-    "technologies": ["FastAPI", "LangChain", "React", "SQLite", "VectorDB"],
+    "tags": ["平面設計", "DM"],
+    "type": "設計接案",
+    "technologies": ["Graphic Design", "Adobe illustrator"],
     "description": [
-      ["專案背景", "這是示範專案 7 的專案背景描述內容。"],
-      ["技術亮點", "示範專案 7 的技術亮點在於整合多種技術並提供良好使用者體驗。"],
-      ["專案畫面", "", [
-        "https://yourdomain.com/images/demo7-1.png",
-        "https://yourdomain.com/images/demo7-2.png"
-      ]],
-      ["挑戰與收穫", "從示範專案 7 的開發中獲得許多寶貴經驗與挑戰處理能力。"]
+      ["設計概述", "除了資訊科技外，我的也經常接觸平面設計相關的事物，而此此次是為我的母校設計招生DM，這也是我首次以平面設計這項技能接案。在設計過程中，我參考了大量的DM設計範例，並與各個科系主任進行討論配色與內容，並經歷許多版面調整，最終完成了這份DM。"],
+      ["設計頁面", "", [
+        "./project/dm_design/cover/投影片2.PNG",
+        "./project/dm_design/cover/投影片3.PNG",
+        "./project/dm_design/cover/投影片4.PNG"
+      ]
+    ]
     ],
     "links": [
-      ["GitHub Repo", "https://github.com/yourname/demo7"],
-      ["Demo 展示", "https://demo7.vercel.app"],
-      ["Notion 文件", "https://www.notion.so/demo7-doc"]
     ]
   }
 ]

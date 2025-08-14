@@ -644,10 +644,10 @@ p {
   list-style: none;
   padding: 0;
   margin: 0;
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: 3rem;
-  justify-content: center;
+  max-width: 1000px;
 }
 
 @media (max-width: 768px) {
@@ -655,6 +655,8 @@ p {
     padding: 1rem;
   }
   .project .project-container-wrapper .project-container {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
   }
 }
