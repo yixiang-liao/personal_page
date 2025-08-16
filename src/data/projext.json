@@ -167,10 +167,9 @@
     },
     "tags": ["閒置資源整合", "科技整合"],
     "type": "跨領域實務專題",
-    "technologies": ["React", "閒置資源整合"],
+    "technologies": ["閒置資源整合"],
     "description": [["", "",
     [
-      "./project/EduMakerBnB/投影片1.PNG",
       "./project/EduMakerBnB/投影片2.PNG",
       "./project/EduMakerBnB/投影片3.PNG",
       "./project/EduMakerBnB/投影片4.PNG",
@@ -186,7 +185,7 @@
       "./project/EduMakerBnB/投影片14.PNG",
       "./project/EduMakerBnB/投影片15.PNG"
     ]]],
-    "links": []
+    "links": [["Demo 展示", "https://yixiang-liao.github.io/Edu-Maker-BnB/"]]
   },
   {
     "id": "6",
