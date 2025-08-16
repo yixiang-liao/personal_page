@@ -14,11 +14,18 @@
     "technologies": ["FastAPI", "LangChain", "React", "SQLite", "VectorDB"],
     "description": [
       ["專案背景", "這是示範專案 1 的專案背景描述內容。"],
-      ["技術亮點", "示範專案 1 的技術亮點在於整合多種技術並提供良好使用者體驗。"],
-      ["專案畫面", "", [
-        "https://yourdomain.com/images/demo1-1.png",
-        "https://yourdomain.com/images/demo1-2.png"
-      ]],
+      [
+        "技術亮點",
+        "示範專案 1 的技術亮點在於整合多種技術並提供良好使用者體驗。"
+      ],
+      [
+        "專案畫面",
+        "",
+        [
+          "https://yourdomain.com/images/demo1-1.png",
+          "https://yourdomain.com/images/demo1-2.png"
+        ]
+      ],
       ["挑戰與收穫", "從示範專案 1 的開發中獲得許多寶貴經驗與挑戰處理能力。"]
     ],
     "links": [
@@ -29,31 +36,57 @@
   },
   {
     "id": "2",
-    "project_name": "示範專案 2",
+    "project_name": "金屬工業中心 語言治療遊戲LINE Bot推播帳號",
     "images": {
-      "cover": "https://ssp.moe.gov.tw/uploads/output/S116T1274/proposal_data1132_0_page-01.png?t=1751879597",
+      "cover": "./project/MIRDC_LINEBOT/LINE bot/投影片1.PNG",
       "others": [
         "https://yourdomain.com/images/demo2-1.png",
         "https://yourdomain.com/images/demo2-2.png"
       ]
     },
-    "tags": ["AI", "NLP", "RAG"],
-    "type": "API + 前端介面",
-    "technologies": ["FastAPI", "LangChain", "React", "SQLite", "VectorDB"],
-    "description": [
-      ["專案背景", "這是示範專案 2 的專案背景描述內容。"],
-      ["技術亮點", "示範專案 2 的技術亮點在於整合多種技術並提供良好使用者體驗。"],
-      ["專案畫面", "", [
-        "https://yourdomain.com/images/demo2-1.png",
-        "https://yourdomain.com/images/demo2-2.png"
-      ]],
-      ["挑戰與收穫", "從示範專案 2 的開發中獲得許多寶貴經驗與挑戰處理能力。"]
+    "tags": ["LINE Bot", "RASA", "RAG", "Full Stack"],
+    "type": "產學合作",
+    "technologies": [
+      "FastAPI",
+      "RAG",
+      "RASA",
+      "React",
+      "LINE Bot Messaging API"
     ],
-    "links": [
-      ["GitHub Repo", "https://github.com/yourname/demo2"],
-      ["Demo 展示", "https://demo2.vercel.app"],
-      ["Notion 文件", "https://www.notion.so/demo2-doc"]
-    ]
+    "description": [
+      [
+        "專案背景",
+        "藉由實驗室，與金屬工業研究發展中心合作，開發一個語言治療遊戲 官方LINE Bot推播帳號。此次是我首次參與產學合作專案，並且許多技術也都是我首次接觸，因此在開發過程中遇到了許多挑戰，但也因此學習到了許多新技術。"
+      ],
+      [
+        "技術亮點",
+        "此次專案的技術亮點在於使用RASA、RAG技術來提供更智能的對話體驗，並且整合了LINE Bot Messaging API來實現推播功能。"
+      ],
+      [
+        "專案畫面",
+        "",
+        [
+          "./project/MIRDC_LINEBOT/LINE bot/投影片2.PNG",
+          "./project/MIRDC_LINEBOT/LINE bot/投影片3.PNG",
+          "./project/MIRDC_LINEBOT/LINE bot/投影片4.PNG",
+          "./project/MIRDC_LINEBOT/LINE bot/投影片5.PNG",
+          "./project/MIRDC_LINEBOT/LINE bot/投影片6.PNG",
+          "./project/MIRDC_LINEBOT/LINE bot/投影片7.PNG",
+          "./project/MIRDC_LINEBOT/LINE bot/投影片8.PNG",
+          "./project/MIRDC_LINEBOT/LINE bot/投影片9.PNG",
+          "./project/MIRDC_LINEBOT/LINE bot/投影片10.PNG",
+          "./project/MIRDC_LINEBOT/LINE bot/投影片11.PNG",
+          "./project/MIRDC_LINEBOT/LINE bot/投影片12.PNG",
+          "./project/MIRDC_LINEBOT/LINE bot/投影片13.PNG",
+          "./project/MIRDC_LINEBOT/LINE bot/投影片14.PNG",
+          "./project/MIRDC_LINEBOT/LINE bot/投影片15.PNG",
+          "./project/MIRDC_LINEBOT/LINE bot/投影片16.PNG",
+          "./project/MIRDC_LINEBOT/LINE bot/投影片17.PNG",
+          "./project/MIRDC_LINEBOT/LINE bot/投影片18.PNG"
+        ]
+      ]
+    ],
+    "links": []
   },
   {
     "id": "3",
@@ -70,11 +103,18 @@
     "technologies": ["FastAPI", "LangChain", "React", "SQLite", "VectorDB"],
     "description": [
       ["專案背景", "這是示範專案 3 的專案背景描述內容。"],
-      ["技術亮點", "示範專案 3 的技術亮點在於整合多種技術並提供良好使用者體驗。"],
-      ["專案畫面", "", [
-        "https://yourdomain.com/images/demo3-1.png",
-        "https://yourdomain.com/images/demo3-2.png"
-      ]],
+      [
+        "技術亮點",
+        "示範專案 3 的技術亮點在於整合多種技術並提供良好使用者體驗。"
+      ],
+      [
+        "專案畫面",
+        "",
+        [
+          "https://yourdomain.com/images/demo3-1.png",
+          "https://yourdomain.com/images/demo3-2.png"
+        ]
+      ],
       ["挑戰與收穫", "從示範專案 3 的開發中獲得許多寶貴經驗與挑戰處理能力。"]
     ],
     "links": [
@@ -98,11 +138,18 @@
     "technologies": ["FastAPI", "LangChain", "React", "SQLite", "VectorDB"],
     "description": [
       ["專案背景", "這是示範專案 4 的專案背景描述內容。"],
-      ["技術亮點", "示範專案 4 的技術亮點在於整合多種技術並提供良好使用者體驗。"],
-      ["專案畫面", "", [
-        "https://yourdomain.com/images/demo4-1.png",
-        "https://yourdomain.com/images/demo4-2.png"
-      ]],
+      [
+        "技術亮點",
+        "示範專案 4 的技術亮點在於整合多種技術並提供良好使用者體驗。"
+      ],
+      [
+        "專案畫面",
+        "",
+        [
+          "https://yourdomain.com/images/demo4-1.png",
+          "https://yourdomain.com/images/demo4-2.png"
+        ]
+      ],
       ["挑戰與收穫", "從示範專案 4 的開發中獲得許多寶貴經驗與挑戰處理能力。"]
     ],
     "links": [
@@ -113,81 +160,98 @@
   },
   {
     "id": "5",
-    "project_name": "示範專案 5",
+    "project_name": "Edu Maker BnB",
     "images": {
-      "cover": "https://ssp.moe.gov.tw/uploads/output/S116T1274/proposal_data1132_0_page-01.png?t=1751879597",
-      "others": [
-        "https://yourdomain.com/images/demo5-1.png",
-        "https://yourdomain.com/images/demo5-2.png"
-      ]
+      "cover": "./project/EduMakerBnB/投影片1.PNG",
+      "others": []
     },
-    "tags": ["AI", "NLP", "RAG"],
-    "type": "API + 前端介面",
-    "technologies": ["FastAPI", "LangChain", "React", "SQLite", "VectorDB"],
-    "description": [
-      ["專案背景", "這是示範專案 5 的專案背景描述內容。"],
-      ["技術亮點", "示範專案 5 的技術亮點在於整合多種技術並提供良好使用者體驗。"],
-      ["專案畫面", "", [
-        "https://yourdomain.com/images/demo5-1.png",
-        "https://yourdomain.com/images/demo5-2.png"
-      ]],
-      ["挑戰與收穫", "從示範專案 5 的開發中獲得許多寶貴經驗與挑戰處理能力。"]
-    ],
-    "links": [
-      ["GitHub Repo", "https://github.com/yourname/demo5"],
-      ["Demo 展示", "https://demo5.vercel.app"],
-      ["Notion 文件", "https://www.notion.so/demo5-doc"]
-    ]
+    "tags": ["閒置資源整合", "科技整合"],
+    "type": "跨領域實務專題",
+    "technologies": ["React", "閒置資源整合"],
+    "description": [["", "",
+    [
+      "./project/EduMakerBnB/投影片1.PNG",
+      "./project/EduMakerBnB/投影片2.PNG",
+      "./project/EduMakerBnB/投影片3.PNG",
+      "./project/EduMakerBnB/投影片4.PNG",
+      "./project/EduMakerBnB/投影片5.PNG",
+      "./project/EduMakerBnB/投影片6.PNG",
+      "./project/EduMakerBnB/投影片7.PNG",
+      "./project/EduMakerBnB/投影片8.PNG",
+      "./project/EduMakerBnB/投影片9.PNG",
+      "./project/EduMakerBnB/投影片10.PNG",
+      "./project/EduMakerBnB/投影片11.PNG",
+      "./project/EduMakerBnB/投影片12.PNG",
+      "./project/EduMakerBnB/投影片13.PNG",
+      "./project/EduMakerBnB/投影片14.PNG",
+      "./project/EduMakerBnB/投影片15.PNG"
+    ]]],
+    "links": []
   },
   {
     "id": "6",
-    "project_name": "示範專案 6",
+    "project_name": "創新創業教育中心 設備租借系統",
     "images": {
-      "cover": "https://ssp.moe.gov.tw/uploads/output/S116T1274/proposal_data1132_0_page-01.png?t=1751879597",
-      "others": [
-        "https://yourdomain.com/images/demo6-1.png",
-        "https://yourdomain.com/images/demo6-2.png"
-      ]
+      "cover": "./project/FiRentWeb/投影片1.PNG",
+      "others": []
     },
-    "tags": ["AI", "NLP", "RAG"],
-    "type": "API + 前端介面",
-    "technologies": ["FastAPI", "LangChain", "React", "SQLite", "VectorDB"],
+    "tags": ["React"],
+    "type": "前端接案",
+    "technologies": ["React", "Google Sheets", "LINE Notify"],
     "description": [
-      ["專案背景", "這是示範專案 6 的專案背景描述內容。"],
-      ["技術亮點", "示範專案 6 的技術亮點在於整合多種技術並提供良好使用者體驗。"],
-      ["專案畫面", "", [
-        "https://yourdomain.com/images/demo6-1.png",
-        "https://yourdomain.com/images/demo6-2.png"
-      ]],
-      ["挑戰與收穫", "從示範專案 6 的開發中獲得許多寶貴經驗與挑戰處理能力。"]
+      [
+        "專案背景",
+        "國立高雄科技大學 創新創業教育中心是我打工的地方，期間發現這裡的租借方式沒有統一的預約管道，並且大多使用者不知工坊開放的時間，因此我提出了這個專案，並且在中心的同意下進行開發。"
+      ],
+      ["專案未來", "此網站於112學年期間進行運營，而後由新版系統取代支援。"],
+      [
+        "專案畫面",
+        "",
+        [
+          "./project/FiRentWeb/投影片2.PNG",
+          "./project/FiRentWeb/投影片3.PNG",
+          "./project/FiRentWeb/投影片4.PNG",
+          "./project/FiRentWeb/投影片5.PNG",
+          "./project/FiRentWeb/投影片6.PNG",
+          "./project/FiRentWeb/投影片7.PNG",
+          "./project/FiRentWeb/投影片8.PNG",
+          "./project/FiRentWeb/投影片9.PNG",
+          "./project/FiRentWeb/投影片10.PNG",
+          "./project/FiRentWeb/投影片11.PNG",
+          "./project/FiRentWeb/投影片12.PNG",
+          "./project/FiRentWeb/投影片13.PNG",
+          "./project/FiRentWeb/投影片14.PNG",
+          "./project/FiRentWeb/投影片15.PNG"
+        ]
+      ]
     ],
-    "links": [
-      ["GitHub Repo", "https://github.com/yourname/demo6"],
-      ["Demo 展示", "https://demo6.vercel.app"],
-      ["Notion 文件", "https://www.notion.so/demo6-doc"]
-    ]
+    "links": []
   },
   {
     "id": "7",
     "project_name": "復華中學 招生DM設計",
     "images": {
       "cover": "./project/dm_design/cover/投影片1.PNG",
-      "others": [
-      ]
+      "others": []
     },
     "tags": ["平面設計", "DM"],
     "type": "設計接案",
     "technologies": ["Graphic Design", "Adobe illustrator"],
     "description": [
-      ["設計概述", "除了資訊科技外，我的也經常接觸平面設計相關的事物，而此此次是為我的母校設計招生DM，這也是我首次以平面設計這項技能接案。在設計過程中，我參考了大量的DM設計範例，並與各個科系主任進行討論配色與內容，並經歷許多版面調整，最終完成了這份DM。"],
-      ["設計頁面", "", [
-        "./project/dm_design/cover/投影片2.PNG",
-        "./project/dm_design/cover/投影片3.PNG",
-        "./project/dm_design/cover/投影片4.PNG"
+      [
+        "設計概述",
+        "除了資訊科技外，我的也經常接觸平面設計相關的事物，而此此次是為我的母校設計招生DM，這也是我首次以平面設計這項技能接案。在設計過程中，我參考了大量的DM設計範例，並與各個科系主任進行討論配色與內容，並經歷許多版面調整，最終完成了這份DM。"
+      ],
+      [
+        "設計頁面",
+        "",
+        [
+          "./project/dm_design/cover/投影片2.PNG",
+          "./project/dm_design/cover/投影片3.PNG",
+          "./project/dm_design/cover/投影片4.PNG"
+        ]
       ]
-    ]
     ],
-    "links": [
-    ]
+    "links": []
   }
 ]
