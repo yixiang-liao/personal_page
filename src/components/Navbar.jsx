@@ -49,7 +49,7 @@ const Navbar = () => {
         <li>
           <button onClick={() => handleNavClick("projects")}>Projects</button>
         </li>
-        <li>
+        {/* <li>
           <Link to="/acknowledgements" onClick={() => setIsOpen(false)}>
             Acknowledgements
           </Link>
@@ -58,7 +58,7 @@ const Navbar = () => {
           <Link to="/font" onClick={() => setIsOpen(false)}>
             font
           </Link>
-        </li>
+        </li> */}
       </ul>
     </nav>
   );

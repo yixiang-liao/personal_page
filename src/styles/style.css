@@ -413,7 +413,7 @@ p {
 
 .home {
   height: 100vh;
-  background-image: url("https://i.pinimg.com/736x/7f/a1/b3/7fa1b30ec174933fe51feb043e67d0c9.jpg");
+  background-image: url("./img/I-14.png");
   background-size: cover;
   background-position: center center;
   filter: grayscale(100%);
@@ -456,9 +456,7 @@ p {
     min-height: 100vh; /* 讓整個區塊至少撐滿一個畫面高度 */
   }
   .home .profile {
-    margin: 7rem 20px;
-    margin-top: auto; /* 將 .profile 推到底部 */
-    margin-bottom: 2rem;
+    margin: 10rem 20px;
     padding: 0 20px;
   }
 }
@@ -514,6 +512,8 @@ p {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  -o-object-position: center 25%;
+     object-position: center 25%;
 }
 .about .about-content .about-contentA .about-info .name {
   font-size: 1.5rem;

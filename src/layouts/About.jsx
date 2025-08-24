@@ -107,7 +107,7 @@ const About = () => {
       <div className="about-content">
         <div className="about-contentA">
           <div className="about-img">
-            <img src="https://i.pinimg.com/736x/3b/5d/93/3b5d935e4e52bfe8098e231e30a52586.jpg" />
+            <img src="./img/I-1-2.png" />
           </div>
           <div className="about-info">
             <div className="name">

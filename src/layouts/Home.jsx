@@ -5,10 +5,10 @@ const Home = () => {
   return (
     <div className="home" id="home">
       <div className="profile">
-        <h1>Hi, I'm {profile.nameZh} {profile.nameEn}</h1>
-        <p>
+        {/* <h1>Hi, I'm {profile.nameZh} <br/>{profile.nameEn}</h1> */}
+        {/* <p>
           {profile.department}, <br/>{profile.university}
-        </p>
+        </p> */}
       </div>
     </div>
   );

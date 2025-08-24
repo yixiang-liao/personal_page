@@ -1,7 +1,7 @@
 .home {
   height: 100vh;
   // background-color: black;
-  background-image: url("https://i.pinimg.com/736x/7f/a1/b3/7fa1b30ec174933fe51feb043e67d0c9.jpg");
+  background-image: url("./img/I-14.png");
   background-size: cover;
   background-position: center center;
   // background-attachment: fixed; /* 關鍵 */
@@ -10,6 +10,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  // justify-content: top;
 
   @media (min-width: 1181px) {
     background-attachment: fixed; /* 關鍵 */
@@ -26,10 +27,13 @@
     margin-left: 10rem;
     h1 {
       letter-spacing: 5px;
+      // margin-top: 10rem;
+      // text-align: right;
+      // margin-right: 5rem;
     }
     p {
       font-size: 1.5rem;
-  font-family: "Noto Serif TC", serif !important;
+      font-family: "Noto Serif TC", serif !important;
     }
   }
 }
@@ -45,9 +49,9 @@
     justify-content: flex-start;
     min-height: 100vh; /* 讓整個區塊至少撐滿一個畫面高度 */
     .profile {
-      margin: 7rem 20px;
-      margin-top: auto; /* 將 .profile 推到底部 */
-      margin-bottom: 2rem;
+      margin: 10rem 20px;
+      // margin-top: auto; /* 將 .profile 推到底部 */
+      // margin-bottom: 2rem;
       padding: 0 20px;
     }
   }
