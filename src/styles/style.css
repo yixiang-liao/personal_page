@@ -295,7 +295,7 @@ p {
   }
 }
 .project-box {
-  width: auto;
+  width: 300px;
   display: flex;
   flex-direction: column;
 }
