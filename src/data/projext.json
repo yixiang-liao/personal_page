@@ -1,37 +1,39 @@
 [
   {
     "id": "1",
-    "project_name": "示範專案 1",
+    "project_name": "ZenMate智慧心靈導師",
     "images": {
-      "cover": "https://ssp.moe.gov.tw/uploads/output/S116T1274/proposal_data1132_0_page-01.png?t=1751879597",
+      "cover": "./project/ZenMate/投影片1.PNG",
       "others": [
         "https://yourdomain.com/images/demo1-1.png",
         "https://yourdomain.com/images/demo1-2.png"
       ]
     },
-    "tags": ["AI", "NLP", "RAG"],
-    "type": "API + 前端介面",
-    "technologies": ["FastAPI", "LangChain", "React", "SQLite", "VectorDB"],
+    "tags": ["AI", "NLP", "RAG" , "智慧醫療"],
+    "type": "智慧醫療",
+    "technologies": ["FastAPI", "LangChain", "React", "RAG", "LLM", "NLP"],
     "description": [
-      ["專案背景", "這是示範專案 1 的專案背景描述內容。"],
       [
-        "技術亮點",
-        "示範專案 1 的技術亮點在於整合多種技術並提供良好使用者體驗。"
-      ],
-      [
-        "專案畫面",
+        "",
         "",
         [
-          "https://yourdomain.com/images/demo1-1.png",
-          "https://yourdomain.com/images/demo1-2.png"
+          "./project/ZenMate/投影片2.PNG",
+          "./project/ZenMate/投影片3.PNG",
+          "./project/ZenMate/投影片4.PNG",
+          "./project/ZenMate/投影片5.PNG",
+          "./project/ZenMate/投影片6.PNG",
+          "./project/ZenMate/投影片7.PNG",
+          "./project/ZenMate/投影片8.PNG",
+          "./project/ZenMate/投影片9.PNG",
+          "./project/ZenMate/投影片10.PNG",
+          "./project/ZenMate/投影片11.PNG",
+          "./project/ZenMate/poster.png"
         ]
-      ],
-      ["挑戰與收穫", "從示範專案 1 的開發中獲得許多寶貴經驗與挑戰處理能力。"]
+      ]
     ],
     "links": [
-      ["GitHub Repo", "https://github.com/yourname/demo1"],
-      ["Demo 展示", "https://demo1.vercel.app"],
-      ["Notion 文件", "https://www.notion.so/demo1-doc"]
+      ["介紹網站", "https://babupersonal.github.io/ZenMate/"],
+      ["系統操作影片", "https://youtu.be/nSY1-OtDzKs"]
     ]
   },
   {
@@ -90,76 +92,95 @@
   },
   {
     "id": "3",
-    "project_name": "示範專案 3",
+    "project_name": "2025技優成果競賽 線上人氣獎票選系統暨後台管理系統",
     "images": {
-      "cover": "https://ssp.moe.gov.tw/uploads/output/S116T1274/proposal_data1132_0_page-01.png?t=1751879597",
+      "cover": "./project/2025skill/1.png",
       "others": [
         "https://yourdomain.com/images/demo3-1.png",
         "https://yourdomain.com/images/demo3-2.png"
       ]
     },
-    "tags": ["AI", "NLP", "RAG"],
-    "type": "API + 前端介面",
-    "technologies": ["FastAPI", "LangChain", "React", "SQLite", "VectorDB"],
+    "tags": ["Full Stack", "Hash", "SSO"],
+    "type": "全端開發",
+    "technologies": ["FastAPI", "React", "SSO", "Hash"],
     "description": [
-      ["專案背景", "這是示範專案 3 的專案背景描述內容。"],
-      [
-        "技術亮點",
-        "示範專案 3 的技術亮點在於整合多種技術並提供良好使用者體驗。"
-      ],
       [
         "專案畫面",
         "",
         [
-          "https://yourdomain.com/images/demo3-1.png",
-          "https://yourdomain.com/images/demo3-2.png"
+          "./project/2025skill/1.png",
+          "./project/2025skill/2.png",
+          "./project/2025skill/3.png",
+          "./project/2025skill/4.png"
         ]
-      ],
-      ["挑戰與收穫", "從示範專案 3 的開發中獲得許多寶貴經驗與挑戰處理能力。"]
+      ]
     ],
     "links": [
-      ["GitHub Repo", "https://github.com/yourname/demo3"],
-      ["Demo 展示", "https://demo3.vercel.app"],
-      ["Notion 文件", "https://www.notion.so/demo3-doc"]
+      ["系統連結", "https://maker.nkust.edu.tw/2025skill/Popularity/home"]
     ]
   },
   {
     "id": "4",
-    "project_name": "示範專案 4",
+    "project_name": "BinMusic 相信音樂 大數據分析平台",
     "images": {
-      "cover": "https://ssp.moe.gov.tw/uploads/output/S116T1274/proposal_data1132_0_page-01.png?t=1751879597",
+      "cover": "./project/BigData/home1.png",
       "others": [
         "https://yourdomain.com/images/demo4-1.png",
         "https://yourdomain.com/images/demo4-2.png"
       ]
     },
-    "tags": ["AI", "NLP", "RAG"],
-    "type": "API + 前端介面",
-    "technologies": ["FastAPI", "LangChain", "React", "SQLite", "VectorDB"],
+    "tags": ["AI", "NLP", "RAG" , "Full Stack", "LLM" ],
+    "type": "課程作品",
+    "technologies": ["FastAPI", "LangChain", "React", "NLP", "RAG" , "LLM"],
     "description": [
-      ["專案背景", "這是示範專案 4 的專案背景描述內容。"],
-      [
-        "技術亮點",
-        "示範專案 4 的技術亮點在於整合多種技術並提供良好使用者體驗。"
-      ],
+      ["專案介紹", "讓資料與 AI 為華語音樂寫下新的篇章，BinMusic 大數據分析平台是一個結合音樂資料探索與 AI 技術的互動網站，聚焦於華語流行音樂品牌「相信音樂」旗下藝人與作品，透過 KKBOX、Spotify、官方網站等多元來源爬取與彙整資料，運用自然語言處理（NLP）與向量檢索（RAG）技術，讓使用者更深入理解音樂與創作背後的價值。"],
+      ["技術架構與特色","本專案的技術核心在於多層次的資料整合與智慧化處理。首先，平台透過 KKBOX 與 Spotify API 擷取專輯與單曲資料，並結合新聞爬蟲自動化蒐集官方網站的最新資訊，同時整合歌詞文本進行語意分析。在自然語言處理方面，系統使用 CKIP Transformer 模型進行斷詞、詞性標註與命名實體辨識，並針對歌詞進行情緒分析，讓數據不再只是單純的字詞統計，而能呈現情感脈絡。這些處理後的文本會進一步向量化，並存入 FAISS 向量資料庫，搭配 HuggingFace Embeddings 提供高效檢索。最終，資料透過本地大型語言模型 Gemma3:4b-it-qat 與 LangChain 框架進行 Retrieval-Augmented Generation（RAG）問答，確保回應能兼具精準度與即時性。在系統部署上，前端採用 React 與 Vite 結合 SCSS 打造流暢的互動介面，後端則以 FastAPI 搭配 SQLite 建構 API 與資料存取架構，完整呈現出一個兼具安全性、擴充性與即時性的數據平台。"],
+      ["平台功能模組" , "平台的功能設計強調互動性與多元性。在首頁，使用者能透過藝人輪播與專輯跑馬燈快速掌握近期動態，並瀏覽近兩個月的最新新聞。進入藝人專區後，系統提供完整的藝人清單，點選個別藝人即可進入專屬頁面，查看藝人介紹、代表作品、相關新聞與歌詞分析。專輯專區則提供所有專輯的瀏覽與篩選，並在專輯頁面中顯示詳細資訊、收錄歌曲以及情感分析折線圖，讓使用者直觀理解作品的情緒走向。新聞專區則整合新聞趨勢圖與文字雲，讓使用者掌握近期話題焦點。另一方面，平台也提供 BinMusic LLM 模組，透過本地大模型結合 RAG 技術，使用者可以提出音樂與新聞相關問題並即時獲得回覆。此外，歌詞互動模組允許使用者挑選觸動人心的歌詞段落並留下心得，而歌詞回饋模組則讓使用者瀏覽他人的感受，進而建立一個共享共鳴的音樂社群。整體而言，平台功能不僅止於資訊展示，更致力於營造互動與情感交流的空間。"],
       [
         "專案畫面",
         "",
         [
-          "https://yourdomain.com/images/demo4-1.png",
-          "https://yourdomain.com/images/demo4-2.png"
+          "./project/BigData/home1.png",
+          "./project/BigData/home2.png",
+          "./project/BigData/art1.png",
+          "./project/BigData/artin1.png",
+          "./project/BigData/artin2.png",
+          "./project/BigData/artin3.png",
+          "./project/BigData/ab1.png",
+          "./project/BigData/abin1.png",
+          "./project/BigData/abin2.png",
+          "./project/BigData/news1.png",
+          "./project/BigData/news2.png",
+          "./project/BigData/rag.png",
+          "./project/BigData/ly1.png",
+          "./project/BigData/ly2.png",
+          "./project/BigData/lyb1.png",
+          "./project/BigData/lyb2.png"
         ]
-      ],
-      ["挑戰與收穫", "從示範專案 4 的開發中獲得許多寶貴經驗與挑戰處理能力。"]
-    ],
-    "links": [
-      ["GitHub Repo", "https://github.com/yourname/demo4"],
-      ["Demo 展示", "https://demo4.vercel.app"],
-      ["Notion 文件", "https://www.notion.so/demo4-doc"]
+      ]
     ]
   },
   {
     "id": "5",
+    "project_name": "創新創業發展處 官方網站",
+    "images": {
+      "cover": "./project/IEO/1.png",
+      "others": []
+    },
+    "tags": ["RPage"],
+    "type": "前端接案",
+    "technologies": ["RPage" , "FontEnd Development"],
+    "description": [["", "",
+    [
+      "./project/IEO/1.png",
+      "./project/IEO/2.png",
+      "./project/IEO/3.png",
+      "./project/IEO/4.png"
+    ]]],
+    "links": [["創新創業發展處 官方網站", "https://startup.nkust.edu.tw/"]]
+  },
+  {
+    "id": "6",
     "project_name": "Edu Maker BnB",
     "images": {
       "cover": "./project/EduMakerBnB/投影片1.PNG",
@@ -188,7 +209,7 @@
     "links": [["Demo 展示", "https://yixiang-liao.github.io/Edu-Maker-BnB/"],["大專校院創新創業實戰模擬學習平臺","https://ssp.moe.gov.tw/cases/901"]]
   },
   {
-    "id": "6",
+    "id": "7",
     "project_name": "創新創業教育中心 設備租借系統",
     "images": {
       "cover": "./project/FiRentWeb/投影片1.PNG",
@@ -227,7 +248,73 @@
     "links": []
   },
   {
-    "id": "7",
+    "id": "8",
+    "project_name": "FormGPT 絕命製表師",
+    "images": {
+      "cover": "./project/FontGPT/投影片1.PNG",
+      "others": []
+    },
+    "tags": ["RAG", "LLM"],
+    "type": "數位轉型",
+    "technologies": ["RAG", "LLM"],
+    "description": [
+      [
+        "",
+        "",
+        [
+          "./project/FontGPT/投影片2.PNG",
+          "./project/FontGPT/投影片3.PNG",
+          "./project/FontGPT/投影片4.PNG",
+          "./project/FontGPT/投影片5.PNG",
+          "./project/FontGPT/投影片6.PNG",
+          "./project/FontGPT/投影片7.PNG",
+          "./project/FontGPT/投影片8.PNG",
+          "./project/FontGPT/投影片9.PNG",
+          "./project/FontGPT/投影片10.PNG",
+          "./project/FontGPT/投影片11.PNG",
+          "./project/FontGPT/投影片12.PNG",
+          "./project/FontGPT/投影片13.PNG"
+        ]
+      ]
+    ],
+    "links": [
+      ["系統操作影片", "https://youtu.be/ie-1PmRY6rk"],
+      ["專案介紹影片", "https://youtu.be/TW9RxWSjqKs"]
+    ]
+  },
+  {
+    "id": "9",
+    "project_name": "神機廟算",
+    "images": {
+      "cover": "./project/o2o/投影片1.PNG",
+      "others": []
+    },
+    "tags": ["商業模式", "O2O"],
+    "type": "廟宇轉型",
+    "technologies": ["O2O", "商業模式"],
+    "description": [
+      [
+        "",
+        "",
+        [
+          "./project/o2o/投影片2.PNG",
+          "./project/o2o/投影片3.PNG",
+          "./project/o2o/投影片4.PNG",
+          "./project/o2o/投影片5.PNG",
+          "./project/o2o/投影片6.PNG",
+          "./project/o2o/投影片7.PNG",
+          "./project/o2o/投影片8.PNG",
+          "./project/o2o/投影片9.PNG",
+          "./project/o2o/投影片10.PNG",
+          "./project/o2o/投影片11.PNG",
+          "./project/o2o/投影片12.PNG"
+        ]
+      ]
+    ],
+    "links": []
+  },
+  {
+    "id": "10",
     "project_name": "復華中學 招生DM設計",
     "images": {
       "cover": "./project/dm_design/cover/投影片1.PNG",
