@@ -2,7 +2,7 @@
   "nameZh": "廖翊翔",
   "nameEn": "I-Hsiang, Liao",
   "nickname": "Eason",
-  "cell": "0903-355-894",
+  "call": "0903-355-894",
   "email": "ah6020308@gmail.com",
   "university": "National Kaohsiung University of Science and Technology",
   "department": "Department of Information Management",
@@ -52,18 +52,18 @@
       "description": "負責開發競賽廣播系統、材料室自動化程式，並與校外廠商接洽租借系統之建置與維護，規劃並優化設備租借流程。於競賽期間管理機工坊與材料室，確保賽事期間各項器材與資源充足且運作順暢。"
     },
     {
-      "company": "農之助科技有限公司",
-      "position": "系統開發人員",
-      "startYear": 2025,
-      "endYear": "Now",
-      "description": "負責伺服器監控與日常維運，確保系統穩定運行。後續將參與銷售網站之全端開發，涵蓋前端介面設計與後端功能實作，協助公司建立線上銷售平台。"
-    },
-    {
       "company": "高雄醫學大學",
       "position": "專案人員",
       "startYear": 2025,
       "endYear": "Now",
       "description": "協助執行高雄醫學大學相關專案計劃，負責 AI 與深度學習模型應用，建置資料處理流程並整合多種開源工具，實作毒品結構預測與質譜分析系統。"
+    },
+    {
+      "company": "農之助科技有限公司",
+      "position": "系統開發人員",
+      "startYear": 2025,
+      "endYear": 2025,
+      "description": "負責伺服器監控與日常維運，確保系統穩定運行。後續將參與銷售網站之全端開發，涵蓋前端介面設計與後端功能實作，協助公司建立線上銷售平台。"
     },
     {
       "company": "行動商務與城市計算實驗室",

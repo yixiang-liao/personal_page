@@ -2,73 +2,7 @@
   font-family: "Noto Serif TC", serif !important;
   font-optical-sizing: auto;
 }
-.page-loader {
-  position: fixed;
-  inset: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 
-  background-color: #fff; /* 初始全白階段 */
-  z-index: 9999;
-
-  opacity: 0;             /* 先透明，待會淡入 */
-  pointer-events: none;   /* 防誤觸（可選） */
-}
-
-/* 背景圖放在 ::before，單獨做黑白→彩色的濾鏡動畫 */
-.page-loader::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background-image: url("https://yixiang-liao.github.io/personal_page/loadbg.jpeg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-
-  /* 一開始是黑白；將在淡入後自動轉彩色 */
-  filter: grayscale(100%);
-
-  /* 這個動畫會在「淡入 (1.2s) 結束後」開始跑（延遲同淡入秒數） */
-  animation: grayToColor 1.6s 1.2s forwards;
-}
-
-/* Loader 內的中心圖片（一起淡入/淡出，不做黑白） */
-.page-loader img {
-  position: relative;
-  z-index: 1;    /* 壓在背景之上 */
-  // max-width: 320px;
-  // width: clamp(160px, 40vw, 320px);
-  width: 40%;
-  height: auto;
-  user-select: none;
-}
-
-/* === 淡入：容器不透明（背景與圖片一起淡入）=== */
-.page-loader.fade-in {
-  animation: loaderFadeIn 1.2s forwards; /* ← 想要更慢就改這裡 */
-}
-
-/* === 淡出：整個容器透明（背景與圖片一起淡出）=== */
-.page-loader.fade-out {
-  animation: loaderFadeOut 1s forwards;   /* ← 想要更慢就改這裡，也要同步改 JS 的 FADE_OUT_MS */
-}
-
-@keyframes loaderFadeIn {
-  from { opacity: 0; }
-  to   { opacity: 1; }
-}
-
-/* 背景從黑白 → 彩色（不影響圖片） */
-@keyframes grayToColor {
-  0%   { filter: grayscale(100%); }
-  100% { filter: grayscale(0%); }
-}
-
-@keyframes loaderFadeOut {
-  from { opacity: 1; }
-  to   { opacity: 0; visibility: hidden; }
-}
 
 h1 {
   font-weight: bold;

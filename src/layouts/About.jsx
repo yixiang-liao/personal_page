@@ -60,11 +60,17 @@ const About = () => {
                 <li key={idx}>
                   <strong>{exp.position}</strong> at {exp.company} （
                   {/* <br /> */}
-                  {exp.startYear} -{" "}
-                  {exp.endYear === "Now" ? (
-                    <strong>{exp.endYear}</strong>
+                  {exp.startYear === exp.endYear ? (
+                    exp.startYear
                   ) : (
-                    exp.endYear
+                    <>
+                      {exp.startYear} -{" "}
+                      {exp.endYear === "Now" ? (
+                        <strong>{exp.endYear}</strong>
+                      ) : (
+                        exp.endYear
+                      )}
+                    </>
                   )}
                   ）{/* <br /> */}
                   <div className="experience-description">
@@ -116,8 +122,8 @@ const About = () => {
             <div className="name">{profile.nameEn}</div>
             <hr />
             <div className="contact">
-              <div className="cell">Cell: {profile.cell}</div>
-              <div className="email">Email: {profile.email}</div>
+              <div className="cell">{profile.call}</div>
+              <div className="email">{profile.email}</div>
               <div className="link">
                 <a href={profile.linkedin} target="_blank">
                   <AiFillLinkedin className="icon" />
@@ -190,7 +196,7 @@ const About = () => {
             </ul>
           </div> */}
           <div className="education">
-          <h2>Education</h2>
+            <h2>Education</h2>
             {/* <ul> */}
             {profile.education.map((education, index) => (
               <div>
